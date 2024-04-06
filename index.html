@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" integrity="sha256-tq2XQC7duQPnpdenPuR6Z5IE773aRSGjkcutnfUJuTI=" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js" integrity="sha256-+0Qf8IHMJWuYlZ2lQDBrF1+2aigIRZXEdSvegtELo2I=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css" integrity="sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=" crossorigin="anonymous">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <title>JapsikServer™ Launcher 내려받기</title>
+</head>
+
+<body class="bg-gray-200 p-4">
+
+  <div class="max-w-4xl mx-auto">
+    <hr class="my-4">
+    <h1 class="text-4xl font-bold text-center mb-8">JapsikServer™ Launcher 내려받기</h1>
+    <hr class="my-4">
+    <div class="bg-blue-200 border-l-4 border-blue-400 text-blue-600 rounded-md shadow-md p-4 mt-4" role="alert">
+      <p class="font-bold">
+        JapsikServer™ Launcher <a href="https://japsik.xyz" target="_blank" class="text-blue-800 underline">JapsikServer™</a>에서만 사용하실 수 있습니다.<br> 공개된 자료를 무단으로 수정, 배포, 또는 복제하는 행위는 민·형사상의 책임을 수반할 수 있습니다.
+      </p>
+    </div>
+
+    <div class="flex space-x-4 mb-4">
+      <!-- Item Resource Pack Latest Version Download Card -->
+      <div class="flex-1 bg-white p-6 rounded-md shadow-md cubes">
+        <h2 class="text-xl font-bold mb-4">🌥️ JapsikServer™ Item <span class="text-gray-500 italic text-xs float-right">접속 시 자동 설치</span></h2>
+        <p>Minecraft®: Java Edition 1.18 이상</p>
+        <p class="mb-4">아이템 Launcher</p>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md는 <b><a href="https://japsik.xyz" target="_blank">JapsikServer™</a></b> 및 JapsikServer™ 제반 서비스에서만 사용하실 수 있습니다. ' +
+          '공개된 자료를 무단으로 수정, 배포, 또는 복제하는 행위는 민·형사상의 책임을 수반할 수 있습니다.<br> ' +
+          '또한 이 소프트웨어는 어떠한 보증이 제공되지 않으며, 사용 도중 발생한 문제에 대하여 JapsikServer에서는 책임지지 않습니다. ' +
+          '이에 동의하시나요?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: '동의하고 내려받기',
+        cancelButtonText: '취소',
+      }).then((result) => {
+        if (result.isConfirmed) {
+            var downloadUrl = "https://data.japsik.xyz/" + type + "/" + type + "-compressed.zip";
+            Swal.fire({
+                title: '다운로드가 시작되었습니다.',
+                html: '다운로드가 자동으로 시작되지 않는다면 <u><a href="' + downloadUrl + '">이곳을 누르세요</a></u>.',
+                icon: 'success',
+                confirmButtonText: '확인',
+            });
+            window.location.href =  downloadUrl;
+        }
+      });
+    }
+  </script>
+
+  <style>
+    body {
+        font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    }
+    .cubes,
+    .train {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      background-repeat: no-repeat;
+      background-position: 105% -55px;
+      border-radius: 8px;
+    }
+
+    .cubes {
+      background-image: url("data:image/svg+xml;utf8,<svg fill='%23eeeeee' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'><path d='M290.8 48.6l78.4 29.7L288 109.5 206.8 78.3l78.4-29.7c1.8-.7 3.8-.7 5.7 0zM136 92.5V204.7c-1.3 .4-2.6 .8-3.9 1.3l-96 36.4C14.4 250.6 0 271.5 0 294.7V413.9c0 22.2 13.1 42.3 33.5 51.3l96 42.2c14.4 6.3 30.7 6.3 45.1 0L288 457.5l113.5 49.9c14.4 6.3 30.7 6.3 45.1 0l96-42.2c20.3-8.9 33.5-29.1 33.5-51.3V294.7c0-23.3-14.4-44.1-36.1-52.4l-96-36.4c-1.3-.5-2.6-.9-3.9-1.3V92.5c0-23.3-14.4-44.1-36.1-52.4l-96-36.4c-12.8-4.8-26.9-4.8-39.7 0l-96 36.4C150.4 48.4 136 69.3 136 92.5zM392 210.6l-82.4 31.2V152.6L392 121v89.6zM154.8 250.9l78.4 29.7L152 311.7 70.8 280.6l78.4-29.7c1.8-.7 3.8-.7 5.7 0zm18.8 204.4V354.8L256 323.2v95.9l-82.4 36.2zM421.2 250.9c1.8-.7 3.8-.7 5.7 0l78.4 29.7L424 311.7l-81.2-31.1 78.4-29.7zM523.2 421.2l-77.6 34.1V354.8L528 323.2v90.7c0 3.2-1.9 6-4.8 7.3z'/></svg>");
+    }
+
+    .train {
+      background-image: url("data:image/svg+xml;utf8,<svg fill='%23eeeeee' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M96 0C43 0 0 43 0 96V352c0 48 35.2 87.7 81.1 94.9l-46 46C28.1 499.9 33.1 512 43 512H82.7c8.5 0 16.6-3.4 22.6-9.4L160 448H288l54.6 54.6c6 6 14.1 9.4 22.6 9.4H405c10 0 15-12.1 7.9-19.1l-46-46c46-7.1 81.1-46.9 81.1-94.9V96c0-53-43-96-96-96H96zM64 128c0-17.7 14.3-32 32-32h80c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V128zM272 96h80c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H272c-17.7 0-32-14.3-32-32V128c0-17.7 14.3-32 32-32zM64 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm288-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z'/></svg>");
+    }
+  </style>
+
+</body>
+
+</html>
