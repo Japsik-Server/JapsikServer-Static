@@ -1,0 +1,1 @@
+# JapsikServer-Static
