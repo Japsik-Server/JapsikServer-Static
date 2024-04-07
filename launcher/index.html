@@ -9,28 +9,35 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js" integrity="sha256-+0Qf8IHMJWuYlZ2lQDBrF1+2aigIRZXEdSvegtELo2I=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css" integrity="sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=" crossorigin="anonymous">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-  <title>JapsikServer™ 내려받기 센터</title>
+  <title>JapsikServer™ Launcher 내려받기</title>
 </head>
 
 <body class="bg-gray-200 p-4">
 
   <div class="max-w-4xl mx-auto">
     <hr class="my-4">
-    <h1 class="text-4xl font-bold text-center mb-8">JapsikServer™ 내려받기 센터</h1>
+    <h1 class="text-4xl font-bold text-center mb-8">JapsikServer™ Launcher 내려받기</h1>
     <hr class="my-4">
     <div class="bg-blue-200 border-l-4 border-blue-400 text-blue-600 rounded-md shadow-md p-4 mt-4" role="alert">
       <p class="font-bold">
-        JapsikServer™ 의 모든 파일들은 <a href="https://japsik.xyz" target="_blank" class="text-blue-800 underline">JapsikServer™</a>에서만 사용하실 수 있습니다.<br> 공개된 자료를 무단으로 수정, 배포, 또는 복제하는 행위는 민·형사상의 책임을 수반할 수 있습니다.
+        JapsikServer™ Launcher은 <a href="https://japsik.xyz" target="_blank" class="text-blue-800 underline">JapsikServer™</a>에서만 사용하실 수 있습니다.<br> 공개된 자료를 무단으로 수정, 배포, 또는 복제하는 행위는 민·형사상의 책임을 수반할 수 있습니다.
       </p>
     </div>
 
     <div class="flex space-x-4 mb-4">
-      <!-- Japsik Launcher Download Link Card -->
+      <!-- Japsik Launcher Latest Version Download Card -->
       <div class="flex-1 bg-white p-6 rounded-md shadow-md latest">
         <h2 class="text-xl font-bold mb-4">🌥️ JapsikServer™ Launcher <span class="text-gray-500 italic text-xs float-right">접속 시 필수 설치</span></h2>
-        <p>Minecraft®: Java Edition</p>
+        <p>Minecraft®: Java Edition 1.20.4 | Launcher: 3.0.1 </p>
         <p class="mb-4">Japsik Launcher</p>
-        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" onclick="window.location.href='https://static.japsik.xyz/launcher/';">바로가기</button>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" onclick="showConfirmation('launcher', 'latest', 'exe')">내려받기</button>
+      </div>
+      <!-- Japsik Launcher Old Version Download Card -->
+      <div class="flex-1 bg-white p-6 rounded-md shadow-md old">
+        <h2 class="text-xl font-bold mb-4">🌎 JapsikServer™ Launcher (Old) <span class="text-gray-500 italic text-xs float-right">접속 시 필수 설치</span></h2>
+        <p>Minecraft®: Java Edition 1.20.4 | Launcher: 2.1.1</p>
+        <p class="mb-4">Japsik Launcher (Old Version)</p>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" onclick="showConfirmation('launcher', '2.1.1', 'exe')">내려받기</button>
       </div>
     </div>
   </div>
@@ -38,13 +45,40 @@
   <!-- 푸터 -->
   <footer class="text-center text-gray-500 text-sm">
     <hr class="my-4">
-    <!-- 홈페이지로 돌아가기 버튼 -->
+    <!-- Github으로 돌아가기 버튼 -->
     <div class="text-center mt-4">
-      <a href="https://site.japsik.xyz" target="_blank" class="bg-transparent border border-gray-500 text-gray-500 py-2 px-4 rounded-full inline-block">← 홈페이지로 돌아가기</a>
+      <a href="https://github.com/thecats1105/JapsikLauncher" target="_blank" class="bg-transparent border border-gray-500 text-gray-500 py-2 px-4 rounded-full inline-block">← Github으로 돌아가기</a>
       <hr class="my-2">
     </div>
-    <p>ⓒ JapsikServer. 모든 권리 보유. JapsikServer™은 Mojang Studios의 Minecraft®를 기반으로 하는 온라인 멀티플레이어 게임 서비스입니다.<br>Minecraft®지지 Mojang Synergies AB의 상표이며, JapsikServer은 Mojang Studios 혹은 Microsoft Corporation와 제휴 관계가 아닙니다.</p>
+    <p>ⓒ JapsikServer. 모든 권리 보유. JapsikServer™은 Mojang Studios의 Minecraft®를 기반으로 하는 온라인 멀티플레이어 게임 서비스입니다.<br>Minecraft®는 Mojang Synergies AB의 상표이며, JapsikServer은 Mojang Studios 혹은 Microsoft Corporation와 제휴 관계가 아닙니다.</p>
   </footer>
+
+  <script>
+    function showConfirmation(type, version, extension) {
+      Swal.fire({
+        title: '소프트웨어 사용권 안내',
+        html: 'JapsikServer™ Launcher은 <b><a href="https://japsik.xyz" target="_blank">JapsikServer™</a></b> 및 JapsikServer™ 제반 서비스에서만 사용하실 수 있습니다. ' +
+          '공개된 자료를 무단으로 수정, 배포, 또는 복제하는 행위는 민·형사상의 책임을 수반할 수 있습니다.<br> ' +
+          '또한 이 소프트웨어는 어떠한 보증이 제공되지 않으며, 사용 도중 발생한 문제에 대하여 JapsikServer에서는 책임지지 않습니다. ' +
+          '이에 동의하시나요?',
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: '동의하고 내려받기',
+        cancelButtonText: '취소',
+      }).then((result) => {
+        if (result.isConfirmed) {
+            var downloadUrl = "https://data.japsik.xyz/" + type + "/" + type + "-" + version +"." + extension;
+            Swal.fire({
+                title: '다운로드가 시작되었습니다.',
+                html: '다운로드가 자동으로 시작되지 않는다면 <u><a href="' + downloadUrl + '">이곳을 누르세요</a></u>.',
+                icon: 'success',
+                confirmButtonText: '확인',
+            });
+            window.location.href =  downloadUrl;
+        }
+      });
+    }
+  </script>
 
   <style>
     body {
