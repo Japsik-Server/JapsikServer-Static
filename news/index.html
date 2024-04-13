@@ -78,13 +78,13 @@
 
 		// Generate HTML code
 		var htmlCode = `<item>
-	<title>${title}</title>
-	<content:encoded>
-		<![CDATA[ ${htmlContent} ]]>
-	</content:encoded>
-	<dc:creator>${author}</dc:creator>
-	<pubDate>${formattedDate}:10</pubDate>
-</item>`;
+			<title>${title}</title>
+			<content:encoded>
+				<![CDATA[ ${htmlContent} ]]>
+			</content:encoded>
+			<dc:creator>${author}</dc:creator>
+			<pubDate>${formattedDate}:10</pubDate>
+		</item>`;
 
 		// Set output div's innerHTML to htmlCode
 		document.getElementById('output').textContent = htmlCode;
