@@ -17,13 +17,13 @@
 
     
 		<item>
-        	<title>모모</title>
-        	<content:encoded>
+        		<title>모모</title>
+        		<content:encoded>
 				<![CDATA[ <h2>Momo is best Cat</h2><p><img src="https://media.discordapp.net/attachments/1190912303722397827/1200424535514697758/image.png?ex=662ba4f8&is=66192ff8&hm=a5c2a4df0388e2b843c4fe6d43a66242bc2ee16299b041e97c3daabfc7bcb4be&=&format=webp&quality=lossless&width=810&height=608" alt="모모"></p> ]]>
 			</content:encoded>
-        	<dc:creator>thecat</dc:creator>
-        	<pubDate>13 April 2024 12:54:10</pubDate>
-        </item>
+        		<dc:creator>thecat</dc:creator>
+        		<pubDate>13 April 2024 12:54:10</pubDate>
+        	</item>
 		<item>
 			<title>4월 2주차 뉴스레터</title>
 			<content:encoded>
