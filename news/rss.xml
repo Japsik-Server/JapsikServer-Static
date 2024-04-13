@@ -3,19 +3,40 @@
 	<channel>
 		<title>Japsik Server News</title>
 		<link>https://github.com/Japsik-Server/JapsikLauncher</link>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<item>
+			<title>asdf</title>
+			<content:encoded>
+				<![CDATA[ <p>asdf</p> ]]>
+			</content:encoded>
+			<dc:creator>asdf</dc:creator>
+			<pubDate>13 April 2024 01:14:10</pubDate>
+		</item>
 
-
-
-
-
-
-
-
-
-
-
-
-    
 		<item>
         		<title>모모</title>
         		<content:encoded>
@@ -24,6 +45,7 @@
         		<dc:creator>thecat</dc:creator>
         		<pubDate>13 April 2024 12:54:10</pubDate>
         	</item>
+		
 		<item>
 			<title>4월 2주차 뉴스레터</title>
 			<content:encoded>
