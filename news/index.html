@@ -46,14 +46,14 @@
 		<input type="datetime-local" id="date" name="date"><br><br>
 		<label for="content">내용 (Markdown):</label><br>
 		<textarea id="content" name="content" rows="4" oninput="updatePreview()"></textarea><br><br>
-		<button type="button" onclick="generateCode()">Build</button>
 	</form>
 	<div id="preview"></div>
+	<button id="generateXML" onclick="generateXML()">생성</button>
 	<pre id="output"></pre>
-	<button id="copyButton" onclick="copyCode()">Copy XML</button>
+	<button id="copyButton" onclick="copyCode()">복사</button>
 
 <script>
-	function generateCode() {
+	function generateXML() {
 		var title = document.getElementById('title').value;
 		var author = document.getElementById('author').value;
 		var dateInput = document.getElementById('date').value;
