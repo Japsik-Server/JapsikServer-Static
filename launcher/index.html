@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" integrity="sha256-tq2XQC7duQPnpdenPuR6Z5IE773aRSGjkcutnfUJuTI=" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js" integrity="sha256-+0Qf8IHMJWuYlZ2lQDBrF1+2aigIRZXEdSvegtELo2I=" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="https://rawgit.com/hippich/bower-semver/master/semver.min.js"></script>
+  <script src="./script.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css" integrity="sha256-h2Gkn+H33lnKlQTNntQyLXMWq7/9XI2rlPCsLsVcUBs=" crossorigin="anonymous">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
   <title>JapsikServer™ Launcher 내려받기</title>
@@ -30,16 +30,16 @@
       <!-- Japsik Launcher Latest Version Download Card -->
       <div class="flex-1 bg-white p-6 rounded-md shadow-md latest">
         <h2 class="text-xl font-bold mb-4">🌥️ JapsikServer™ Launcher (Stable) <span class="text-gray-500 italic text-xs float-right">접속 시 필수 설치</span></h2>
-        <p>Minecraft®: Java Edition | Launcher: v<span id="stablelatest"></span> </p>
+        <p>Minecraft®: Java Edition | Launcher: v<span id="stableLatest"></span> </p>
         <p class="mb-4">Japsik Launcher (Stable Version)</p>
-        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" onclick="showConfirmation('stable-latest', 'exe')">내려받기</button>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" id="stableDownload"">내려받기</button>
       </div>
       <!-- Japsik Launcher Dev Version Download Card -->
       <div class="flex-1 bg-white p-6 rounded-md shadow-md old">
         <h2 class="text-xl font-bold mb-4">🌎 JapsikServer™ Launcher (Dev) <span class="text-gray-500 italic text-xs float-right">접속 시 필수 설치</span></h2>
-        <p>Minecraft®: Java Edition | Launcher: v<span id="devlatest"></span></p>
+        <p>Minecraft®: Java Edition | Launcher: v<span id="devLatest"></span></p>
         <p class="mb-4">Japsik Launcher (Dev Version)</p>
-        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" onclick="showConfirmation('dev-latest', 'exe')">내려받기</button>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-md block text-center" id="devDownload">내려받기</button>
       </div>
     </div>
   </div>
@@ -54,58 +54,6 @@
     </div>
     <p>ⓒ JapsikServer. 모든 권리 보유. JapsikServer™은 Mojang Studios의 Minecraft®를 기반으로 하는 온라인 멀티플레이어 게임 서비스입니다.<br>Minecraft®는 Mojang Synergies AB의 상표이며, JapsikServer은 Mojang Studios 혹은 Microsoft Corporation와 제휴 관계가 아닙니다.</p>
   </footer>
-
-  <script>
-    const gitHubPath = 'Japsik-Server/JapsikLauncher';  // Repository
-    const url = 'https://api.github.com/repos/' + gitHubPath + '/tags';
-    
-    $.get(url).done(data => {
-      const dev = data.filter(tag => tag.name.includes('-')); // Pre-release 분류
-      const devlatest = dev.sort((v1, v2) => semver.compare(v2.name, v1.name)); // Pre-release 최신버전
-      const stablelatest = data.sort((v1, v2) => semver.compare(v2.name, v1.name)); // Stable 최신버전
-      devlatest = devlatest.replace('v', '');
-      stablelatest = stablelatest.replace('v', '');
-      $('#devlatest').html(devlatest[0].name);
-      $('#stablelatest').html(stablelatest[0].name);
-    });
-    
-    function showConfirmation(version, extension) {
-      Swal.fire({
-        title: '소프트웨어 사용권 안내',
-        html: 'JapsikServer™ Launcher는 <b><a href="https://japsik.xyz" target="_blank">JapsikServer™</a></b> 및 JapsikServer™ 제반 서비스에서만 사용하실 수 있습니다. ' +
-          '공개된 자료를 무단으로 수정, 배포, 또는 복제하는 행위는 민·형사상의 책임을 수반할 수 있습니다.<br> ' +
-          '또한 이 소프트웨어는 어떠한 보증이 제공되지 않으며, 사용 도중 발생한 문제에 대하여 JapsikServer에서는 책임지지 않습니다. ' +
-          '이에 동의하시나요?',
-        icon: 'question',
-        showCancelButton: true,
-        confirmButtonText: '동의하고 내려받기',
-        cancelButtonText: '취소',
-      }).then((result) => {
-        if (result.isConfirmed) {
-          if (version == 'stable-latest') {
-            var downloadUrl = "https://github.com/Japsik-Server/JapsikLauncher/releases/download/v" + stablelatest "/Japsik-Launcher-setup-" + stablelatest + "." + extension;
-            Swal.fire({
-                title: '다운로드가 시작되었습니다.',
-                html: '다운로드가 자동으로 시작되지 않는다면 <u><a href="' + downloadUrl + '">이곳을 누르세요</a></u>.',
-                icon: 'success',
-                confirmButtonText: '확인',
-            });
-            window.location.href =  downloadUrl;
-          };
-          if (version == 'dev-latest') {
-            var downloadUrl = "https://github.com/Japsik-Server/JapsikLauncher/releases/download/v" + devlatest "/Japsik-Launcher-setup-" + devlatest + "." + extension;
-            Swal.fire({
-                title: '다운로드가 시작되었습니다.',
-                html: '다운로드가 자동으로 시작되지 않는다면 <u><a href="' + downloadUrl + '">이곳을 누르세요</a></u>.',
-                icon: 'success',
-                confirmButtonText: '확인',
-            });
-            window.location.href =  downloadUrl;
-          }
-        }
-      });
-    }
-  </script>
 
   <style>
     body {
