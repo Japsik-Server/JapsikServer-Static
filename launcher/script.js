@@ -63,13 +63,13 @@ function getLatestStable(tags) {
 }
 
 // Latest Pre-release 버전 추출 함수
-// Latest Pre-release 버전 추출 함수
 function getLatestDev(tags) {
     let latestDev = null;
 
     for (const tag of tags) {
         if (tag.includes('-')) {
-            if (!latestDev || semver.lt(latestDev, tag)) {
+            if (!latestDev || semver.lt(semver.minor(latestDev), semver.minor(tag)) ||
+                (semver.minor(latestDev) === semver.minor(tag) && semver.lt(latestDev, tag))) {
                 latestDev = tag;
             }
         }
