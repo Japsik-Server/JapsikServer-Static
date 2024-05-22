@@ -47,9 +47,7 @@ script.onload = function () {
 // Latest Stable 버전 추출 함수
 function getLatestStable(tags) {
     // Semantic Versioning에 따라 정렬
-    tags.sort((a, b) => {
-        return semver.compare(b, a);
-    });
+    tags.sort((a, b) => semver.compare(b, a));
 
     // Latest Stable 버전 찾기
     for (const tag of tags) {
@@ -68,8 +66,7 @@ function getLatestDev(tags) {
 
     for (const tag of tags) {
         if (tag.includes('-')) {
-            if (!latestDev || semver.lt(semver.minor(latestDev), semver.minor(tag)) ||
-                (semver.minor(latestDev) === semver.minor(tag) && semver.lt(latestDev, tag))) {
+            if (!latestDev || semver.compare(latestDev, tag) < 0) {
                 latestDev = tag;
             }
         }
