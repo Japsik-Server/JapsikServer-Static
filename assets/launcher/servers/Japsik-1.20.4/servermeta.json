@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Japsik",
+    "description": "Japsik",
+    "icon": "https://data.japsik.xyz/logo/Japsik-Logo.png",
+    "address": "play.japsik.xyz:25565",
+    "discord": {
+      "shortId": "",
+      "largeImageText": "",
+      "largeImageKey": ""
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": []
+}

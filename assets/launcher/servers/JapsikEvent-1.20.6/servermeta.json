@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "JapsikEvent",
+    "description": "Event Server 사부작",
+    "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo.png",
+    "address": "event.japsik.xyz:25565",
+    "discord": {
+      "shortId": "",
+      "largeImageText": "",
+      "largeImageKey": ""
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": []
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "spDefaultProfile": {
+    "name": "Singleplayer Default",
+    "addresses": [],
+    "addToHistory": false,
+    "showHudMessage": false,
+    "commandKeys": []
+  },
+  "mpDefaultProfile": {
+    "name": "Japsik Default",
+    "addresses": [],
+    "addToHistory": false,
+    "showHudMessage": false,
+    "commandKeys": [
+      {
+        "conflictStrategy": "TWO",
+        "sendStrategy": "ZERO",
+        "key": {
+          "name": "key.keyboard.g",
+          "type": "KEYSYM",
+          "value": 71
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/gsit"
+        ]
+      },
+      {
+        "conflictStrategy": "TWO",
+        "sendStrategy": "ZERO",
+        "key": {
+          "name": "key.keyboard.o",
+          "type": "KEYSYM",
+          "value": 89
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/ia"
+        ]
+      }
+    ]
+  },
+  "profiles": []
+}
