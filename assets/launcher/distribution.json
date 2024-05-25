@@ -1152,9 +1152,9 @@
           "name": "Plasmo Voice",
           "type": "FabricMod",
           "artifact": {
-            "size": 11460356,
+            "size": 11685170,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/plasmovoice-fabric-1.20.6-2.0.9.jar",
-            "MD5": "4f08645c3603c905952f7244fbc1cbb4"
+            "MD5": "c625e5a7d3205e26e3f93ba9c2fee483"
           }
         },
         {
@@ -1162,9 +1162,9 @@
           "name": "Pv-addon-soundphysics",
           "type": "FabricMod",
           "artifact": {
-            "size": 10686,
+            "size": 11185,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/pv-addon-soundphysics-1.0.1.jar",
-            "MD5": "f4057fa2e49c7e71b983b18584b7b39a"
+            "MD5": "d4fe1b1f22e32efc59db8dd6fda990c6"
           },
           "required": {
             "value": false
