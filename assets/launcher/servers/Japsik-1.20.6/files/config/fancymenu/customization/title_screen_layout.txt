@@ -28,7 +28,7 @@ scroll_list_customization {
 
 element {
   button_element_executable_block_identifier = 48dfe28a-c25e-40f0-840a-a2d563677ce0-1712580479819
-  [executable_action_instance:62fa44fd-0a8f-4627-afc2-bc3d9deeb780-1712580587388][action_type:joinserver] = event.japsik.xyz:25565
+  [executable_action_instance:62fa44fd-0a8f-4627-afc2-bc3d9deeb780-1712580587388][action_type:joinserver] = play.japsik.xyz:25565
   [executable_block:48dfe28a-c25e-40f0-840a-a2d563677ce0-1712580479819][type:generic] = [executables:62fa44fd-0a8f-4627-afc2-bc3d9deeb780-1712580587388;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true

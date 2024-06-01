@@ -575,9 +575,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 16399,
+            "size": 16398,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "148dbe4d089d8e4e58b4c5d85ad67f78",
+            "MD5": "9d043031d1397b70d029db5ca61c4857",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
