@@ -283,16 +283,6 @@
           }
         },
         {
-          "id": "de.keksuccino:fmsia:1.0.1@jar",
-          "name": "FancyMenu | System Interactions Addon",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 211058,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fmsia_fabric_1.0.1_MC_1.20.5-1.20.6.jar",
-            "MD5": "be933fe37be69fd2d0d60ca13ec767d7"
-          }
-        },
-        {
           "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
           "name": "Indium",
           "type": "FabricMod",
