@@ -8,816 +8,19 @@
   },
   "servers": [
     {
-      "id": "Japsik-1.20.4",
-      "name": "Japsik",
-      "description": "Japsik",
-      "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo.png",
-      "version": "1.0.0",
+      "id": "Japsik-1.20.6",
+      "name": "사부작",
+      "description": "사부작",
+      "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo-jyukaaaaa.png",
+      "version": "1.0.1",
       "address": "play.japsik.xyz:25565",
-      "minecraftVersion": "1.20.4",
-      "discord": {
-        "shortId": "",
-        "largeImageText": "",
-        "largeImageKey": ""
-      },
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.15.11",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1327691,
-            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.4-fabric-0.15.11",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2849,
-                "MD5": "14644e099621e62164278bb783fc4033",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/versions/1.20.4-fabric-0.15.11/1.20.4-fabric-0.15.11.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 123598,
-                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51935,
-                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91131,
-                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1458875,
-                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.20.4",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 608319,
-                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "team.creative:ambientsounds:5.3.9@jar",
-          "name": "AmbientSounds",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 84261973,
-            "url": "https://cdn.modrinth.com/data/fM515JnW/versions/41K1ScgC/AmbientSounds_FABRIC_v5.3.9_mc1.20.4.jar",
-            "MD5": "01e71bcdbceb826b96d50d606ae25b5a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.cominixo:betterf3:9.0.0@jar",
-          "name": "BetterF3",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1772502,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/BetterF3-9.0.0-Fabric-1.20.4.jar",
-            "MD5": "591e2b3c753c648d9679439125c3b127"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.tterrag:blur:3.2.0@jar",
-          "name": "Blur (Fabric)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 155092,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/blur-3.2.0.jar",
-            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
-          "name": "Cloth Config v13",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1142084,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
-            "MD5": "3903e7d3c9957bacedae1365ba856202"
-          }
-        },
-        {
-          "id": "jp.axer.cocoainput.loader:cocoainput:4.4.0-EXPERIMENTAL@jar",
-          "name": "CocoaInput",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 145184,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/CocoaInput-1.20.2-fabric-4.4.0-EXPERIMENTAL.jar",
-            "MD5": "b9fc7bc45cae0be15333d8ac17de1c4e"
-          }
-        },
-        {
-          "id": "com.notryken:commandkeys:1.2.0-pre.2@jar",
-          "name": "CommandKeys",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 314125,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/CommandKeys-Fabric-1.20.4-1.2.0-pre.2.jar",
-            "MD5": "716eef7c88678dab992068de8f1356a9"
-          }
-        },
-        {
-          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.2@jar",
-          "name": "Continuity",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1050675,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/continuity-3.0.0-beta.4+1.20.2.jar",
-            "MD5": "b348965933103bb02f9731c6bca76398"
-          }
-        },
-        {
-          "id": "com.hypherionmc:craterlib:1.1.0@jar",
-          "name": "CraterLib",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1232562,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/CraterLib-Fabric-1.20.4-1.1.0.jar",
-            "MD5": "ca554377fd4d2f6823ba994e627544ae"
-          }
-        },
-        {
-          "id": "team.creative:creativecore:2.11.16@jar",
-          "name": "CreativeCore",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1104894,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/CreativeCore_FABRIC_v2.11.16_mc1.20.4.jar",
-            "MD5": "bd892cf0811bdde39a9bd2171eff5599"
-          }
-        },
-        {
-          "id": "dynamic_fps.impl:dynamic_fps:3.3.3@jar",
-          "name": "Dynamic FPS",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 78714,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/dynamic-fps-3.3.3+minecraft-1.20.0.jar",
-            "MD5": "d84568b4d135f0da2ba7b1c9d89f6641"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fabric-api:0.96.1+1.20.4@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2149865,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/fabric-api-0.96.1+1.20.4.jar",
-            "MD5": "c825c041b46082dd99f5a1f21ed8217d"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fabric-language-kotlin:1.10.17+kotlin.1.9.22@jar",
-          "name": "Fabric Language Kotlin",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 6732012,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/fabric-language-kotlin-1.10.17+kotlin.1.9.22.jar",
-            "MD5": "2476cb3269c5ff2876a1ebb546fc4289"
-          }
-        },
-        {
-          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.4@jar",
-          "name": "Falling Leaves",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 153985,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/fallingleaves-1.15.4+1.20.1.jar",
-            "MD5": "c444460976f53149c92c04c5c8d8b237"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "de.keksuccino:fancymenu:3.1.2@jar",
-          "name": "FancyMenu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2638866,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/fancymenu_fabric_3.1.2_MC_1.20.4.jar",
-            "MD5": "0c75bfba15667e825a69e39ad5ee9e86"
-          }
-        },
-        {
-          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
-          "name": "FerriteCore",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 125100,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
-            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
-          }
-        },
-        {
-          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
-          "name": "Indium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 104805,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
-            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
-          }
-        },
-        {
-          "id": "generated.fabricmod:invmove:1.20-0.8.5-Forge@jar",
-          "name": "InvMove",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 128489,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/InvMove-1.20-0.8.5-Forge.jar",
-            "MD5": "25a64eac3469c8d4fd5ecf5a308deaff"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.fabricmod:iris:1.6.17@jar",
-          "name": "Iris",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2421865,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/iris-mc1.20.4-1.6.17.jar",
-            "MD5": "cc391df9e929608c37a04a342c6babb3"
-          }
-        },
-        {
-          "id": "de.keksuccino:konkrete:1.9.2@jar",
-          "name": "Konkrete",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 785596,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/konkrete_fabric_1.9.2_MC_1.20.4.jar",
-            "MD5": "5207d60a19db3a98d3be1c8cae732173"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 716022,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
-            "MD5": "83da6729d5402dc42eca740a96f97346"
-          }
-        },
-        {
-          "id": "generated.fabricmod:make_bubbles_pop:0.2.0-fabric-mc1.19.4+@jar",
-          "name": "Make_bubbles_pop",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 18643,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/make_bubbles_pop-0.2.0-fabric-mc1.19.4+.jar",
-            "MD5": "03c3b1c78677e44127eafa695018c7e8"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "de.keksuccino:melody:1.0.3@jar",
-          "name": "Melody",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 39696,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
-            "MD5": "8095b46d324586b3cf3d2f5bffe8b417"
-          }
-        },
-        {
-          "id": "com.terraformersmc:modmenu:9.0.0@jar",
-          "name": "Mod Menu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 724484,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/modmenu-9.0.0.jar",
-            "MD5": "7eb06d459405ed6c87b16f4c5be4493d"
-          }
-        },
-        {
-          "id": "com.mt1006:nbt_ac:1.1.8@jar",
-          "name": "NBT Autocomplete",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 145151,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/NBTac-FABRIC-1.20.4-1.1.8.jar",
-            "MD5": "995a72dac029539ea04278c34cd46aef"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "dev.tr7zw:notenoughanimations:1.7.1@jar",
-          "name": "NotEnoughAnimations",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 415153,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/notenoughanimations-fabric-1.7.1-mc1.20.4.jar",
-            "MD5": "5739696ed8189673608f8864d7053035"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "eu.ha3:presencefootsteps:1.11.1@jar",
-          "name": "Presence Footsteps",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 7290131,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/PresenceFootsteps-1.11.1.jar",
-            "MD5": "d251347072d74e536a726b646b82154f"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "me.hypherionmc:simplerpc:3.2.5@jar",
-          "name": "Simple RPC",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 755266,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/SimpleRPC-Fabric-1.20.4-3.2.6.jar",
-            "MD5": "7a3643f6b2ebf49bd4c94421b2761127"
-          }
-        },
-        {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
-          "name": "Sodium Extra",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 385665,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
-            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 949085,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
-          }
-        },
-        {
-          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.4-1.3.1@jar",
-          "name": "Sound Physics Remastered",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 174028,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.4-1.3.1.jar",
-            "MD5": "03ab978129ce5b86db134bbb0bb1aea0"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.4@jar",
-          "name": "Status Effect Bars",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 43010,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/status-effect-bars-1.0.4.jar",
-            "MD5": "c9bc80d8ffa655439bad43e62c310860"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
-          "name": "Tiny Item Animations",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 18492,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/tia-1.20-1.1-fabric.jar",
-            "MD5": "262aef6a6587de46b8238ca1144deea5"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.4-2.5.1@jar",
-          "name": "Simple Voice Chat",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 8089632,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/required/voicechat-fabric.jar",
-            "MD5": "3905cece31dacc4b6afd81d9d3c63968"
-          }
-        },
-        {
-          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.4@jar",
-          "name": "WI Zoom",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 139421,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.4.jar",
-            "MD5": "94ed5306aea5ac57369941c47e0fc0b9"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "betterf3.json",
-          "name": "betterf3.json",
-          "type": "File",
-          "artifact": {
-            "size": 2492,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/betterf3.json",
-            "MD5": "d888e64e44a3ab79ec0750d56c011297",
-            "path": "config/betterf3.json"
-          }
-        },
-        {
-          "id": "commandkeys.json",
-          "name": "commandkeys.json",
-          "type": "File",
-          "artifact": {
-            "size": 1106,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/commandkeys.json",
-            "MD5": "742cd9ef31cac73b14a85424bb609cd6",
-            "path": "config/commandkeys.json"
-          }
-        },
-        {
-          "id": "japsik-logo-o-16.png",
-          "name": "japsik-logo-o-16.png",
-          "type": "File",
-          "artifact": {
-            "size": 695,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/assets/japsik-logo-o-16.png",
-            "MD5": "a0cb5e54c2f2c158093a067b6c6a97ad",
-            "path": "config/fancymenu/assets/japsik-logo-o-16.png"
-          }
-        },
-        {
-          "id": "japsik-logo-o-32.icns",
-          "name": "japsik-logo-o-32.icns",
-          "type": "File",
-          "artifact": {
-            "size": 1820,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/assets/japsik-logo-o-32.icns",
-            "MD5": "4ece270de6786b677b217d86eb62f813",
-            "path": "config/fancymenu/assets/japsik-logo-o-32.icns"
-          }
-        },
-        {
-          "id": "japsik-logo-o-32.png",
-          "name": "japsik-logo-o-32.png",
-          "type": "File",
-          "artifact": {
-            "size": 1135,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/assets/japsik-logo-o-32.png",
-            "MD5": "957a95c6623d6c5f065bf139b0d242b9",
-            "path": "config/fancymenu/assets/japsik-logo-o-32.png"
-          }
-        },
-        {
-          "id": "japsik-logo-o.png",
-          "name": "japsik-logo-o.png",
-          "type": "File",
-          "artifact": {
-            "size": 17380,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/assets/japsik-logo-o.png",
-            "MD5": "a1ec0a4fe93d0616331321c672d8331f",
-            "path": "config/fancymenu/assets/japsik-logo-o.png"
-          }
-        },
-        {
-          "id": "xmark.png",
-          "name": "xmark.png",
-          "type": "File",
-          "artifact": {
-            "size": 4736,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/assets/xmark.png",
-            "MD5": "74974c0f2bcf0d49e073de34a16c45e1",
-            "path": "config/fancymenu/assets/xmark.png"
-          }
-        },
-        {
-          "id": "customizablemenus.txt",
-          "name": "customizablemenus.txt",
-          "type": "File",
-          "artifact": {
-            "size": 113,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "be6af3e4d03f5b549353963c5d03962b",
-            "path": "config/fancymenu/customizablemenus.txt"
-          }
-        },
-        {
-          "id": "join_multiplayer_screen_layout.txt",
-          "name": "join_multiplayer_screen_layout.txt",
-          "type": "File",
-          "artifact": {
-            "size": 8432,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
-            "MD5": "8b25cea5e9f77968983f782394bdd9ec",
-            "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
-          }
-        },
-        {
-          "id": "pause_screen_layout.txt",
-          "name": "pause_screen_layout.txt",
-          "type": "File",
-          "artifact": {
-            "size": 11522,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/customization/pause_screen_layout.txt",
-            "MD5": "21501078c89c8c41480408f7547db96d",
-            "path": "config/fancymenu/customization/pause_screen_layout.txt"
-          }
-        },
-        {
-          "id": "title_screen_layout.txt",
-          "name": "title_screen_layout.txt",
-          "type": "File",
-          "artifact": {
-            "size": 16398,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "9d043031d1397b70d029db5ca61c4857",
-            "path": "config/fancymenu/customization/title_screen_layout.txt"
-          }
-        },
-        {
-          "id": "custom_gui_screens.txt",
-          "name": "custom_gui_screens.txt",
-          "type": "File",
-          "artifact": {
-            "size": 51,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/custom_gui_screens.txt",
-            "MD5": "106e52948415f0879c53304f50783b28",
-            "path": "config/fancymenu/custom_gui_screens.txt"
-          }
-        },
-        {
-          "id": "element_layer_control.lewidget",
-          "name": "element_layer_control.lewidget",
-          "type": "File",
-          "artifact": {
-            "size": 197,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
-            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
-            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-          }
-        },
-        {
-          "id": "legacy_checklist.txt",
-          "name": "legacy_checklist.txt",
-          "type": "File",
-          "artifact": {
-            "size": 42,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/legacy_checklist.txt",
-            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
-            "path": "config/fancymenu/legacy_checklist.txt"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1873,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/options.txt",
-            "MD5": "47b8de7a682ed0938a51b8f3ea62f10e",
-            "path": "config/fancymenu/options.txt"
-          }
-        },
-        {
-          "id": "dark.json",
-          "name": "dark.json",
-          "type": "File",
-          "artifact": {
-            "size": 4133,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/ui_themes/dark.json",
-            "MD5": "1fc916f1d20b24c5f0d2d138d19c49a4",
-            "path": "config/fancymenu/ui_themes/dark.json"
-          }
-        },
-        {
-          "id": "light.json",
-          "name": "light.json",
-          "type": "File",
-          "artifact": {
-            "size": 4135,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/ui_themes/light.json",
-            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
-            "path": "config/fancymenu/ui_themes/light.json"
-          }
-        },
-        {
-          "id": "user_variables.db",
-          "name": "user_variables.db",
-          "type": "File",
-          "artifact": {
-            "size": 23,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/fancymenu/user_variables.db",
-            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
-            "path": "config/fancymenu/user_variables.db"
-          }
-        },
-        {
-          "id": "server-entries.toml",
-          "name": "server-entries.toml",
-          "type": "File",
-          "artifact": {
-            "size": 150,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/simple-rpc/server-entries.toml",
-            "MD5": "2fca628745ebfdc5b64aa8101f507a36",
-            "path": "config/simple-rpc/server-entries.toml"
-          }
-        },
-        {
-          "id": "simple-rpc.toml",
-          "name": "simple-rpc.toml",
-          "type": "File",
-          "artifact": {
-            "size": 8293,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/config/simple-rpc/simple-rpc.toml",
-            "MD5": "051798e16228d67f0a2a5128825abacc",
-            "path": "config/simple-rpc/simple-rpc.toml"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 167,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/servers.dat",
-            "MD5": "935dcf307de34cef42cec61e7d964b48",
-            "path": "servers.dat"
-          }
-        },
-        {
-          "id": "BSL.zip",
-          "name": "BSL.zip",
-          "type": "File",
-          "artifact": {
-            "size": 940031,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/shaderpacks/BSL.zip",
-            "MD5": "13a81f3bfc3386c2dc154063bf52a385",
-            "path": "shaderpacks/BSL.zip"
-          }
-        },
-        {
-          "id": "Chocapic13.zip",
-          "name": "Chocapic13.zip",
-          "type": "File",
-          "artifact": {
-            "size": 14149623,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/shaderpacks/Chocapic13.zip",
-            "MD5": "370978c21f154a0022c4d5b5703b790b",
-            "path": "shaderpacks/Chocapic13.zip"
-          }
-        },
-        {
-          "id": "ComplementaryShaders.zip",
-          "name": "ComplementaryShaders.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3454588,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/shaderpacks/ComplementaryShaders.zip",
-            "MD5": "7a48a5dd0f154855ed5a1f2def959ec3",
-            "path": "shaderpacks/ComplementaryShaders.zip"
-          }
-        },
-        {
-          "id": "MakeUp-UltraFast.zip",
-          "name": "MakeUp-UltraFast.zip",
-          "type": "File",
-          "artifact": {
-            "size": 338348,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/shaderpacks/MakeUp-UltraFast.zip",
-            "MD5": "8809bc636dfde2d34219a37376513462",
-            "path": "shaderpacks/MakeUp-UltraFast.zip"
-          }
-        },
-        {
-          "id": "SEUSPTGI.zip",
-          "name": "SEUSPTGI.zip",
-          "type": "File",
-          "artifact": {
-            "size": 4402258,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/shaderpacks/SEUSPTGI.zip",
-            "MD5": "a2f6feaf818e09dafd9a2afedcae5ba0",
-            "path": "shaderpacks/SEUSPTGI.zip"
-          }
-        },
-        {
-          "id": "SildursVibrantShadersLite.zip",
-          "name": "SildursVibrantShadersLite.zip",
-          "type": "File",
-          "artifact": {
-            "size": 142247,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/shaderpacks/SildursVibrantShadersLite.zip",
-            "MD5": "e6294fc113d73c384a9e88e722d1b6da",
-            "path": "shaderpacks/SildursVibrantShadersLite.zip"
-          }
-        },
-        {
-          "id": "xmark.png",
-          "name": "xmark.png",
-          "type": "File",
-          "artifact": {
-            "size": 4736,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.4/files/xmark.png",
-            "MD5": "74974c0f2bcf0d49e073de34a16c45e1",
-            "path": "xmark.png"
-          }
-        }
-      ]
-    },
-    {
-      "id": "JapsikEvent-1.20.6",
-      "name": "JapsikEvent",
-      "description": "Event Server 사부작",
-      "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo.png",
-      "version": "1.0.0",
-      "address": "event.japsik.xyz:25565",
       "minecraftVersion": "1.20.6",
       "discord": {
         "shortId": "",
         "largeImageText": "",
         "largeImageKey": ""
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -918,7 +121,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1795643,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/BetterF3-10.0.1-Fabric-1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/BetterF3-10.0.1-Fabric-1.20.6.jar",
             "MD5": "8e4930e4b11c615791728ac895389d60"
           }
         },
@@ -928,7 +131,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 76705,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/blur-4.0.0.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/blur-4.0.0.jar",
             "MD5": "631d53d0a8eb86ed6e0d47e7d80498e2"
           },
           "required": {
@@ -941,7 +144,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1144434,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/cloth-config-14.0.126-fabric.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/cloth-config-14.0.126-fabric.jar",
             "MD5": "c7bec328b262e26e642dd0b2cd699050"
           }
         },
@@ -951,7 +154,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 118889,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/CommandKeys-Fabric-1.20.5-1.2.0.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CommandKeys-Fabric-1.20.5-1.2.0.jar",
             "MD5": "0553f0ebe4d5ef29121eb2f91c209b3d"
           }
         },
@@ -961,7 +164,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1009234,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/continuity-3.0.0-beta.5+1.20.5.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/continuity-3.0.0-beta.5+1.20.5.jar",
             "MD5": "36ad54c49157899a0cbc1585f3657429"
           },
           "required": {
@@ -974,18 +177,18 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1232562,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/CraterLib-Fabric-1.20.4-1.1.0.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CraterLib-Fabric-1.20.4-1.1.0.jar",
             "MD5": "ca554377fd4d2f6823ba994e627544ae"
           }
         },
         {
-          "id": "team.creative:creativecore:2.11.31@jar",
+          "id": "team.creative:creativecore:2.11.32@jar",
           "name": "CreativeCore",
           "type": "FabricMod",
           "artifact": {
             "size": 1143776,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/CreativeCore_FABRIC_v2.11.31_mc1.20.6.jar",
-            "MD5": "dfd7e1844129f2cb8e7c50c1a112aa6b"
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CreativeCore_FABRIC_v2.11.32_mc1.20.6.jar",
+            "MD5": "da312a2c0eefa38541d905f9e54e7011"
           }
         },
         {
@@ -994,18 +197,18 @@
           "type": "FabricMod",
           "artifact": {
             "size": 94305,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/dynamic-fps-3.4.3+minecraft-1.20.5-fabric.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/dynamic-fps-3.4.3+minecraft-1.20.5-fabric.jar",
             "MD5": "45c4bb7b0db05d8261f968a980b419d0"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.99.0+1.20.6@jar",
+          "id": "generated.fabricmod:fabric-api:0.99.4+1.20.6@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2230074,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/fabric-api-0.99.0+1.20.6.jar",
-            "MD5": "9d6914607f09be3f42707488127dca11"
+            "size": 2230715,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fabric-api-0.99.4+1.20.6.jar",
+            "MD5": "42478748f033622cf9afcae8e8228744"
           }
         },
         {
@@ -1014,7 +217,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 7015315,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fabric-language-kotlin-1.11.0+kotlin.2.0.0.jar",
             "MD5": "ac91311ce91421ca52a96d2a4e4f078c"
           }
         },
@@ -1024,7 +227,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 159666,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/fallingleaves-1.15.8+1.20.5.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/fallingleaves-1.15.8+1.20.5.jar",
             "MD5": "18690b522329c3be97f4ea5b1e371300"
           },
           "required": {
@@ -1037,8 +240,22 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2692710,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/fancymenu_fabric_3.2.3_MC_1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fancymenu_fabric_3.2.3_MC_1.20.6.jar",
             "MD5": "c7df95c10eb4b0b3ab0e1204b4541fe9"
+          }
+        },
+        {
+          "id": "com.wildfire.main:wildfire_gender:3.2.1+1.20.6@jar",
+          "name": "Wildfire's Female Gender Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 962271,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionaloff/Female-Gender-Mod-fabric-3.2.1+1.20.6.jar",
+            "MD5": "65a2272b4091a1977b132db50f917960"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1047,8 +264,32 @@
           "type": "FabricMod",
           "artifact": {
             "size": 118182,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/ferritecore-6.1.1-fabric.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/ferritecore-6.1.1-fabric.jar",
             "MD5": "89654e168d9f271b435f529f85976b1c"
+          }
+        },
+        {
+          "id": "dev.tr7zw:firstperson:2.4.1@jar",
+          "name": "FirstPerson",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 114568,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionaloff/firstperson-fabric-2.4.1-mc1.20.6.jar",
+            "MD5": "0d6f1fd42b4d008802c9eed8048fe7bc"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "de.keksuccino:fmsia:1.0.1@jar",
+          "name": "FancyMenu | System Interactions Addon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 211058,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fmsia_fabric_1.0.1_MC_1.20.5-1.20.6.jar",
+            "MD5": "be933fe37be69fd2d0d60ca13ec767d7"
           }
         },
         {
@@ -1057,7 +298,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 104805,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
             "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
           }
         },
@@ -1067,8 +308,21 @@
           "type": "FabricMod",
           "artifact": {
             "size": 127623,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/InvMove-1.20-0.8.6-Fabric.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/InvMove-1.20-0.8.6-Fabric.jar",
             "MD5": "3158af677982416dc21ba7aa04d611a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:invmovecompats:0.3.2@jar",
+          "name": "InvMoveCompats",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 102080,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/InvMoveCompats-1.20-0.3.2-Fabric.jar",
+            "MD5": "2e4cb16cea2e2a765bd138cbb58ffaa0"
           },
           "required": {
             "value": false
@@ -1080,7 +334,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2698708,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/iris-1.7.0+mc1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/iris-1.7.0+mc1.20.6.jar",
             "MD5": "3c550fff0aae1331134287230355a0dc"
           }
         },
@@ -1090,7 +344,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 785830,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/konkrete_fabric_1.9.4_MC_1.20.5.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/konkrete_fabric_1.9.4_MC_1.20.5.jar",
             "MD5": "fc6c22dfe0f9d9c6c958672c73981574"
           }
         },
@@ -1100,7 +354,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 37284,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/koreanpatch-1.3.7-1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/koreanpatch-1.3.7-1.20.6.jar",
             "MD5": "07b104b4515e87b8a09c3afdccf7d68f"
           }
         },
@@ -1110,7 +364,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 684119,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/lithium-fabric-mc1.20.6-0.12.3.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/lithium-fabric-mc1.20.6-0.12.3.jar",
             "MD5": "396668582f2219fa2f08419f5d4f1165"
           }
         },
@@ -1120,7 +374,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 188028,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/melody_fabric_1.0.6_MC_1.20.5.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/melody_fabric_1.0.6_MC_1.20.5.jar",
             "MD5": "32f2cb851a1e682d1fdd5349791359a1"
           }
         },
@@ -1130,7 +384,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 746627,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/modmenu-10.0.0-beta.1.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/modmenu-10.0.0-beta.1.jar",
             "MD5": "db825ac6ef14a4d3e0237785fd73615f"
           }
         },
@@ -1140,7 +394,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 418311,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/notenoughanimations-fabric-1.7.3-mc1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/notenoughanimations-fabric-1.7.3-mc1.20.6.jar",
             "MD5": "65584f0aae0e84b9fd6bd1c2fa7939ff"
           },
           "required": {
@@ -1153,7 +407,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 11685170,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/plasmovoice-fabric-1.20.6-2.0.9.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/plasmovoice-fabric-1.20.6-2.0.9.jar",
             "MD5": "c625e5a7d3205e26e3f93ba9c2fee483"
           }
         },
@@ -1163,7 +417,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 11185,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/pv-addon-soundphysics-1.0.1.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/pv-addon-soundphysics-1.0.1.jar",
             "MD5": "d4fe1b1f22e32efc59db8dd6fda990c6"
           },
           "required": {
@@ -1176,7 +430,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 374163,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/sodium-extra-0.5.5+mc1.20.6-build.118.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/sodium-extra-0.5.5+mc1.20.6-build.118.jar",
             "MD5": "1d0af7ea70c54e0dd4105045b86423ae"
           }
         },
@@ -1186,18 +440,18 @@
           "type": "FabricMod",
           "artifact": {
             "size": 964688,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/required/sodium-fabric-0.5.8+mc1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/sodium-fabric-0.5.8+mc1.20.6.jar",
             "MD5": "71f1650662a552f4e26d2fa79408d6b1"
           }
         },
         {
-          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.6-1.3.1@jar",
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.6-1.4.2@jar",
           "name": "Sound Physics Remastered",
           "type": "FabricMod",
           "artifact": {
-            "size": 174051,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.6-1.3.1.jar",
-            "MD5": "0ae96736af74d14fbba4bcfd5255ad17"
+            "size": 195268,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.6-1.4.2.jar",
+            "MD5": "4dd8c812279ff7aca365bb01bb6cf44a"
           },
           "required": {
             "value": false
@@ -1209,7 +463,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 139407,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/WI-Zoom-1.5-MC1.20.6.jar",
             "MD5": "07a8025313ee3d32ab90c1133eed56ab"
           },
           "required": {
@@ -1222,7 +476,7 @@
           "type": "File",
           "artifact": {
             "size": 2492,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/betterf3.json",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/betterf3.json",
             "MD5": "d888e64e44a3ab79ec0750d56c011297",
             "path": "config/betterf3.json"
           }
@@ -1232,9 +486,9 @@
           "name": "commandkeys.json",
           "type": "File",
           "artifact": {
-            "size": 735,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/commandkeys.json",
-            "MD5": "406b85832a95b701ee2a7df58212f9e7",
+            "size": 1481,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/commandkeys.json",
+            "MD5": "79310f5f6dcc7f88bc2402ab980f76b3",
             "path": "config/commandkeys.json"
           }
         },
@@ -1244,7 +498,7 @@
           "type": "File",
           "artifact": {
             "size": 695,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/assets/japsik-logo-o-16.png",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/assets/japsik-logo-o-16.png",
             "MD5": "a0cb5e54c2f2c158093a067b6c6a97ad",
             "path": "config/fancymenu/assets/japsik-logo-o-16.png"
           }
@@ -1255,7 +509,7 @@
           "type": "File",
           "artifact": {
             "size": 1820,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/assets/japsik-logo-o-32.icns",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/assets/japsik-logo-o-32.icns",
             "MD5": "4ece270de6786b677b217d86eb62f813",
             "path": "config/fancymenu/assets/japsik-logo-o-32.icns"
           }
@@ -1266,7 +520,7 @@
           "type": "File",
           "artifact": {
             "size": 1135,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/assets/japsik-logo-o-32.png",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/assets/japsik-logo-o-32.png",
             "MD5": "957a95c6623d6c5f065bf139b0d242b9",
             "path": "config/fancymenu/assets/japsik-logo-o-32.png"
           }
@@ -1277,7 +531,7 @@
           "type": "File",
           "artifact": {
             "size": 17380,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/assets/japsik-logo-o.png",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/assets/japsik-logo-o.png",
             "MD5": "a1ec0a4fe93d0616331321c672d8331f",
             "path": "config/fancymenu/assets/japsik-logo-o.png"
           }
@@ -1288,7 +542,7 @@
           "type": "File",
           "artifact": {
             "size": 4736,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/assets/xmark.png",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/assets/xmark.png",
             "MD5": "74974c0f2bcf0d49e073de34a16c45e1",
             "path": "config/fancymenu/assets/xmark.png"
           }
@@ -1299,7 +553,7 @@
           "type": "File",
           "artifact": {
             "size": 113,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/customizablemenus.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/customizablemenus.txt",
             "MD5": "be6af3e4d03f5b549353963c5d03962b",
             "path": "config/fancymenu/customizablemenus.txt"
           }
@@ -1310,7 +564,7 @@
           "type": "File",
           "artifact": {
             "size": 8432,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
             "MD5": "8b25cea5e9f77968983f782394bdd9ec",
             "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
           }
@@ -1321,7 +575,7 @@
           "type": "File",
           "artifact": {
             "size": 11522,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/customization/pause_screen_layout.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/customization/pause_screen_layout.txt",
             "MD5": "21501078c89c8c41480408f7547db96d",
             "path": "config/fancymenu/customization/pause_screen_layout.txt"
           }
@@ -1332,7 +586,7 @@
           "type": "File",
           "artifact": {
             "size": 16399,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/customization/title_screen_layout.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/customization/title_screen_layout.txt",
             "MD5": "148dbe4d089d8e4e58b4c5d85ad67f78",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
@@ -1343,7 +597,7 @@
           "type": "File",
           "artifact": {
             "size": 51,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/custom_gui_screens.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/custom_gui_screens.txt",
             "MD5": "106e52948415f0879c53304f50783b28",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
@@ -1354,7 +608,7 @@
           "type": "File",
           "artifact": {
             "size": 197,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
             "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
             "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
@@ -1365,7 +619,7 @@
           "type": "File",
           "artifact": {
             "size": 42,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/legacy_checklist.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/legacy_checklist.txt",
             "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
             "path": "config/fancymenu/legacy_checklist.txt"
           }
@@ -1376,7 +630,7 @@
           "type": "File",
           "artifact": {
             "size": 1873,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/options.txt",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/options.txt",
             "MD5": "47b8de7a682ed0938a51b8f3ea62f10e",
             "path": "config/fancymenu/options.txt"
           }
@@ -1387,7 +641,7 @@
           "type": "File",
           "artifact": {
             "size": 4133,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/ui_themes/dark.json",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/ui_themes/dark.json",
             "MD5": "1fc916f1d20b24c5f0d2d138d19c49a4",
             "path": "config/fancymenu/ui_themes/dark.json"
           }
@@ -1398,7 +652,7 @@
           "type": "File",
           "artifact": {
             "size": 4135,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/ui_themes/light.json",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/ui_themes/light.json",
             "MD5": "adfba137b3d62c50a5186a4f6523a72a",
             "path": "config/fancymenu/ui_themes/light.json"
           }
@@ -1409,7 +663,7 @@
           "type": "File",
           "artifact": {
             "size": 23,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/fancymenu/user_variables.db",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/fancymenu/user_variables.db",
             "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/user_variables.db"
           }
@@ -1420,7 +674,7 @@
           "type": "File",
           "artifact": {
             "size": 150,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/simple-rpc/server-entries.toml",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/simple-rpc/server-entries.toml",
             "MD5": "2fca628745ebfdc5b64aa8101f507a36",
             "path": "config/simple-rpc/server-entries.toml"
           }
@@ -1431,7 +685,7 @@
           "type": "File",
           "artifact": {
             "size": 8299,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/config/simple-rpc/simple-rpc.toml",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/simple-rpc/simple-rpc.toml",
             "MD5": "5024fc7e8d33a60bfe796404cf004fc0",
             "path": "config/simple-rpc/simple-rpc.toml"
           }
@@ -1442,7 +696,7 @@
           "type": "File",
           "artifact": {
             "size": 940031,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/shaderpacks/BSL.zip",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/shaderpacks/BSL.zip",
             "MD5": "13a81f3bfc3386c2dc154063bf52a385",
             "path": "shaderpacks/BSL.zip"
           }
@@ -1453,7 +707,7 @@
           "type": "File",
           "artifact": {
             "size": 14149623,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/shaderpacks/Chocapic13.zip",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/shaderpacks/Chocapic13.zip",
             "MD5": "370978c21f154a0022c4d5b5703b790b",
             "path": "shaderpacks/Chocapic13.zip"
           }
@@ -1464,7 +718,7 @@
           "type": "File",
           "artifact": {
             "size": 3454588,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/shaderpacks/ComplementaryShaders.zip",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/shaderpacks/ComplementaryShaders.zip",
             "MD5": "7a48a5dd0f154855ed5a1f2def959ec3",
             "path": "shaderpacks/ComplementaryShaders.zip"
           }
@@ -1475,7 +729,7 @@
           "type": "File",
           "artifact": {
             "size": 338348,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/shaderpacks/MakeUp-UltraFast.zip",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/shaderpacks/MakeUp-UltraFast.zip",
             "MD5": "8809bc636dfde2d34219a37376513462",
             "path": "shaderpacks/MakeUp-UltraFast.zip"
           }
@@ -1486,7 +740,7 @@
           "type": "File",
           "artifact": {
             "size": 4402258,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/shaderpacks/SEUSPTGI.zip",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/shaderpacks/SEUSPTGI.zip",
             "MD5": "a2f6feaf818e09dafd9a2afedcae5ba0",
             "path": "shaderpacks/SEUSPTGI.zip"
           }
@@ -1497,7 +751,7 @@
           "type": "File",
           "artifact": {
             "size": 142247,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/shaderpacks/SildursVibrantShadersLite.zip",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/shaderpacks/SildursVibrantShadersLite.zip",
             "MD5": "e6294fc113d73c384a9e88e722d1b6da",
             "path": "shaderpacks/SildursVibrantShadersLite.zip"
           }
@@ -1508,7 +762,7 @@
           "type": "File",
           "artifact": {
             "size": 4736,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.6/files/xmark.png",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/xmark.png",
             "MD5": "74974c0f2bcf0d49e073de34a16c45e1",
             "path": "xmark.png"
           }
