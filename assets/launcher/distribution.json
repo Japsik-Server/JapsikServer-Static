@@ -12,7 +12,7 @@
       "name": "사부작",
       "description": "사부작",
       "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo-jyukaaaaa.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "play.japsik.xyz:25565",
       "minecraftVersion": "1.20.6",
       "discord": {
@@ -139,6 +139,19 @@
           }
         },
         {
+          "id": "nl.enjarai:cicada:0.7.2+1.20.5-and-above@jar",
+          "name": "CICADA",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84388,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/cicada-lib-0.7.2+1.20.5-and-above.jar",
+            "MD5": "8c5343b1d4eadf737f2f561d148ccdd6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "me.shedaniel.autoconfig.example:cloth-config:14.0.126@jar",
           "name": "Cloth Config v14",
           "type": "FabricMod",
@@ -189,6 +202,19 @@
             "size": 1143776,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CreativeCore_FABRIC_v2.11.32_mc1.20.6.jar",
             "MD5": "da312a2c0eefa38541d905f9e54e7011"
+          }
+        },
+        {
+          "id": "nl.enjarai.doabarrelroll:do_a_barrel_roll:3.6.0+1.20.6@jar",
+          "name": "Do a Barrel Roll",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 507864,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/do_a_barrel_roll-fabric-3.6.0+1.20.6.jar",
+            "MD5": "ade1c4a6feb690f2a7f83ff647c8c5a0"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -250,12 +276,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 962271,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionaloff/Female-Gender-Mod-fabric-3.2.1+1.20.6.jar",
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/Female-Gender-Mod-fabric-3.2.1+1.20.6.jar",
             "MD5": "65a2272b4091a1977b132db50f917960"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
