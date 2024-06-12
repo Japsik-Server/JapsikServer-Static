@@ -51,9 +51,9 @@
         "conflictStrategy": "TWO",
         "sendStrategy": "ZERO",
         "key": {
-          "name": "key.keyboard.u",
+          "name": "key.keyboard.0",
           "type": "KEYSYM",
-          "value": 85
+          "value": 48
         },
         "limitKey": {
           "name": "key.keyboard.unknown",
@@ -61,7 +61,7 @@
           "value": -1
         },
         "messages": [
-          "/homes"
+          "/ia"
         ]
       }
     ]

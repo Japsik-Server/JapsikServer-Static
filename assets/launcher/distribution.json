@@ -501,9 +501,9 @@
           "name": "commandkeys.json",
           "type": "File",
           "artifact": {
-            "size": 1481,
+            "size": 1478,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/commandkeys.json",
-            "MD5": "bf46c50711e652c8b966fb13c2cc9cd8",
+            "MD5": "1a5c4cb0200c3dc686efe64268dac8e1",
             "path": "config/commandkeys.json"
           }
         },
