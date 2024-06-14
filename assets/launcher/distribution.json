@@ -185,23 +185,23 @@
           }
         },
         {
-          "id": "com.hypherionmc:craterlib:1.1.0@jar",
+          "id": "com.hypherionmc:craterlib:2.0.0@jar",
           "name": "CraterLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 1232562,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CraterLib-Fabric-1.20.4-1.1.0.jar",
-            "MD5": "ca554377fd4d2f6823ba994e627544ae"
+            "size": 1745225,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CraterLib-Fabric-1.20.4-2.0.0.jar",
+            "MD5": "19ae471533dbc76b6b55a244f43c6e79"
           }
         },
         {
-          "id": "team.creative:creativecore:2.11.32@jar",
+          "id": "team.creative:creativecore:2.11.33@jar",
           "name": "CreativeCore",
           "type": "FabricMod",
           "artifact": {
-            "size": 1143776,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CreativeCore_FABRIC_v2.11.32_mc1.20.6.jar",
-            "MD5": "da312a2c0eefa38541d905f9e54e7011"
+            "size": 1143824,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CreativeCore_FABRIC_v2.11.33_mc1.20.6.jar",
+            "MD5": "dce2043447ea7cf685d7fcb5a437554f"
           }
         },
         {
@@ -228,13 +228,23 @@
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.99.4+1.20.6@jar",
+          "id": "dev.tr7zw:entityculling:1.6.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63732,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/entityculling-fabric-1.6.5-mc1.20.6.jar",
+            "MD5": "55fbdb4f5f9a50c5bc1af8503abe5c06"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.100.0+1.20.6@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2230715,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fabric-api-0.99.4+1.20.6.jar",
-            "MD5": "42478748f033622cf9afcae8e8228744"
+            "size": 2233495,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/fabric-api-0.100.0+1.20.6.jar",
+            "MD5": "b946410d0073117a2c47910e20b014fc"
           }
         },
         {
@@ -248,13 +258,13 @@
           }
         },
         {
-          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.8@jar",
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.9@jar",
           "name": "Falling Leaves",
           "type": "FabricMod",
           "artifact": {
-            "size": 159666,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/fallingleaves-1.15.8+1.20.5.jar",
-            "MD5": "18690b522329c3be97f4ea5b1e371300"
+            "size": 162439,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/fallingleaves-1.15.9+1.20.5.jar",
+            "MD5": "d7ebc5b3473d6491c6f8c8c47710dd3e"
           },
           "required": {
             "value": false
@@ -308,13 +318,13 @@
           }
         },
         {
-          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
+          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
           "name": "Indium",
           "type": "FabricMod",
           "artifact": {
-            "size": 104805,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
-            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+            "size": 105350,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
+            "MD5": "86d20afc613763546f51452ef893be82"
           }
         },
         {
@@ -344,13 +354,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.7.0+mc1.20.6@jar",
+          "id": "generated.fabricmod:iris:1.7.1+mc1.20.6@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2698708,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/iris-1.7.0+mc1.20.6.jar",
-            "MD5": "3c550fff0aae1331134287230355a0dc"
+            "size": 2694628,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/iris-1.7.1+mc1.20.6.jar",
+            "MD5": "0f7a39e0fe3de8e4ba71dec935221560"
           }
         },
         {
@@ -417,13 +427,13 @@
           }
         },
         {
-          "id": "su.plo.voice:plasmovoice:2.0.9@jar",
+          "id": "su.plo.voice:plasmovoice:2.0.10@jar",
           "name": "Plasmo Voice",
           "type": "FabricMod",
           "artifact": {
-            "size": 11685170,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/plasmovoice-fabric-1.20.6-2.0.9.jar",
-            "MD5": "c625e5a7d3205e26e3f93ba9c2fee483"
+            "size": 11394084,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/plasmovoice-fabric-1.20.6-2.0.10.jar",
+            "MD5": "67dd777ef2dc69000fa0e8c4cff87816"
           }
         },
         {
@@ -440,33 +450,33 @@
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.5+mc1.20.6-build.118@jar",
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.6+mc1.20.6@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
           "artifact": {
-            "size": 374163,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/sodium-extra-0.5.5+mc1.20.6-build.118.jar",
-            "MD5": "1d0af7ea70c54e0dd4105045b86423ae"
+            "size": 375407,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/sodium-extra-0.5.6+mc1.20.6.jar",
+            "MD5": "3b89d1f8aa90d15a5006cdfdf9f4f61b"
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.6@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.9+mc1.20.6@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 964688,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/sodium-fabric-0.5.8+mc1.20.6.jar",
-            "MD5": "71f1650662a552f4e26d2fa79408d6b1"
+            "size": 988047,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/sodium-fabric-0.5.9+mc1.20.6.jar",
+            "MD5": "ef81276b7d8ed25f031dffa3cb572892"
           }
         },
         {
-          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.6-1.4.2@jar",
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.6-1.4.3@jar",
           "name": "Sound Physics Remastered",
           "type": "FabricMod",
           "artifact": {
-            "size": 195268,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.6-1.4.2.jar",
-            "MD5": "4dd8c812279ff7aca365bb01bb6cf44a"
+            "size": 195221,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.6-1.4.3.jar",
+            "MD5": "91af3c03a7c1c1c724888ca91877f7c6"
           },
           "required": {
             "value": false
