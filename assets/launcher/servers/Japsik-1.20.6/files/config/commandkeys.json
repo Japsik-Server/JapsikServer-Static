@@ -34,6 +34,23 @@
         "conflictStrategy": "TWO",
         "sendStrategy": "ZERO",
         "key": {
+          "name": "key.keyboard.n",
+          "type": "KEYSYM",
+          "value": 71
+        },
+        "limitKey": {
+          "name": "key.keyboard.unknown",
+          "type": "KEYSYM",
+          "value": -1
+        },
+        "messages": [
+          "/glay"
+        ]
+      },
+      {
+        "conflictStrategy": "TWO",
+        "sendStrategy": "ZERO",
+        "key": {
           "name": "key.keyboard.h",
           "type": "KEYSYM",
           "value": 72

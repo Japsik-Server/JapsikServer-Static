@@ -185,13 +185,13 @@
           }
         },
         {
-          "id": "com.hypherionmc:craterlib:2.0.0@jar",
+          "id": "com.hypherionmc:craterlib:1.1.0@jar",
           "name": "CraterLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 1745225,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CraterLib-Fabric-1.20.4-2.0.0.jar",
-            "MD5": "19ae471533dbc76b6b55a244f43c6e79"
+            "size": 1232562,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CraterLib-Fabric-1.20.4-1.1.0.jar",
+            "MD5": "ca554377fd4d2f6823ba994e627544ae"
           }
         },
         {
@@ -511,9 +511,9 @@
           "name": "commandkeys.json",
           "type": "File",
           "artifact": {
-            "size": 1478,
+            "size": 1851,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/files/config/commandkeys.json",
-            "MD5": "1a5c4cb0200c3dc686efe64268dac8e1",
+            "MD5": "5c188fbd36cc6f1f16ee5fd22961f602",
             "path": "config/commandkeys.json"
           }
         },
