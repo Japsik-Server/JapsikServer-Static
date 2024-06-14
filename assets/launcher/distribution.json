@@ -318,16 +318,6 @@
           }
         },
         {
-          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
-          "name": "Indium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 105350,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
-            "MD5": "86d20afc613763546f51452ef893be82"
-          }
-        },
-        {
           "id": "me.pieking1215:invmove:0.8.6@jar",
           "name": "InvMove",
           "type": "FabricMod",
