@@ -939,6 +939,16 @@
           }
         },
         {
+          "id": "earth.terrarium:botarium:2.3.3@jar",
+          "name": "Botarium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188345,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/botarium-fabric-1.20.1-2.3.3.jar",
+            "MD5": "a8c942971cb1b6c00b15f22c7fd5d1fa"
+          }
+        },
+        {
           "id": "generated.fabricmod:caramelchat:1.1.1@jar",
           "name": "CaramelChat",
           "type": "FabricMod",
@@ -1036,6 +1046,26 @@
             "size": 4209908,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create-food-1.0.7-fabric.jar",
             "MD5": "e3f046adefd4325184226ef757df3824"
+          }
+        },
+        {
+          "id": "org.antarcticgardens.newage:create_new_age:1.1.2@jar",
+          "name": "Create: New Age",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 657516,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create-new-age-fabric-1.20.1-1.1.2.jar",
+            "MD5": "adbcf100c350d23dcaffc452261700a7"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.2.3@jar",
+          "name": "Create Crafts & Additions",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1596068,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/createaddition-fabric+1.20.1-1.2.3.jar",
+            "MD5": "0608de37c0561a31d0542a5798a03b59"
           }
         },
         {
@@ -1308,6 +1338,16 @@
             "size": 105350,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
             "MD5": "86d20afc613763546f51452ef893be82"
+          }
+        },
+        {
+          "id": "com.sudolev:interiors:0.5.3+fabric-mc1.20.1@jar",
+          "name": "Create: Interiors",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 393253,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/interiors-0.5.3+fabric-mc1.20.1.jar",
+            "MD5": "709b59f762293fb5e5b06b001184a1d4"
           }
         },
         {
@@ -1600,6 +1640,16 @@
           }
         },
         {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84-FABRIC@jar",
+          "name": "Patchouli",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 856882,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/Patchouli-1.20.1-84-FABRIC.jar",
+            "MD5": "f6ba47b02420c150a14eac64ac3625ae"
+          }
+        },
+        {
           "id": "eu.ha3:presencefootsteps:1.9.4+1.20.1@jar",
           "name": "Presence Footsteps",
           "type": "FabricMod",
@@ -1656,6 +1706,16 @@
           }
         },
         {
+          "id": "com.possible_triangle:sliceanddice:3.2.2@jar",
+          "name": "Create Slice & Dice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 554787,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sliceanddice-fabric-3.2.2.jar",
+            "MD5": "53101780e0375d6ff97eda1d2c30f522"
+          }
+        },
+        {
           "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.1-build.115@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
@@ -1703,6 +1763,16 @@
             "size": 127368,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/starlight-1.1.2+fabric.dbc156f.jar",
             "MD5": "a0b391bf55891502c2074bd078bb5899"
+          }
+        },
+        {
+          "id": "com.railwayteam:railways:1.6.4+fabric-mc1.20.1@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 9135839,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/Steam_Rails-1.6.4+fabric-mc1.20.1.jar",
+            "MD5": "f11983a15bb6640708c7d47add8bfa7f"
           }
         },
         {
