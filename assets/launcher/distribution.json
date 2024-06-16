@@ -172,19 +172,6 @@
           }
         },
         {
-          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.5@jar",
-          "name": "Continuity",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1009234,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/optionalon/continuity-3.0.0-beta.5+1.20.5.jar",
-            "MD5": "36ad54c49157899a0cbc1585f3657429"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.hypherionmc:craterlib:1.1.0@jar",
           "name": "CraterLib",
           "type": "FabricMod",
