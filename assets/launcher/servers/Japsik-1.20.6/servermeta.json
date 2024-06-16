@@ -11,7 +11,7 @@
       "largeImageText": "",
       "largeImageKey": ""
     },
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false
   },
   "fabric": {
