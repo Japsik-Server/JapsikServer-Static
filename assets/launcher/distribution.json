@@ -170,7 +170,7 @@
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/Japsik-1.20.6/fabricmods/required/CommandKeys-Fabric-1.20.5-1.2.0.jar",
             "MD5": "0553f0ebe4d5ef29121eb2f91c209b3d"
           }
-        },
+        },  
         {
           "id": "com.hypherionmc:craterlib:1.1.0@jar",
           "name": "CraterLib",
