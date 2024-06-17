@@ -776,7 +776,7 @@
       "name": "이벤트",
       "description": "이벤트",
       "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo-jyukaaaaa.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "event-play.japsik.xyz:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -1311,6 +1311,26 @@
           }
         },
         {
+          "id": "software.bernie.example:geckolib:4.4.6@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1019329,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/geckolib-fabric-1.20.1-4.4.6.jar",
+            "MD5": "b4921306307a7c3db5b425c443a04627"
+          }
+        },
+        {
+          "id": "com.starfish_studios:hamsters:fabric-1.0.3-1.20.1@jar",
+          "name": "Hamsters",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 449265,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/hamsters-fabric-1.0.3-1.20.1.jar",
+            "MD5": "92daaaee906bc39b80d72e3de72b022d"
+          }
+        },
+        {
           "id": "immersive_aircraft:immersive_aircraft:1.0.1+1.20.1@jar",
           "name": "Immersive Aircraft",
           "type": "FabricMod",
@@ -1690,6 +1710,19 @@
             "size": 12906744,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/replaymod-1.20.1-2.6.15.jar",
             "MD5": "4f8c4d8b811e5ca1f679eb69211ceae3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.rei.impl.init:roughlyenoughitems:12.1.725@jar",
+          "name": "Roughly Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2382097,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/RoughlyEnoughItems-12.1.725-fabric.jar",
+            "MD5": "65061e1ca59a21f9934768bdad3c2e11"
           },
           "required": {
             "value": false
