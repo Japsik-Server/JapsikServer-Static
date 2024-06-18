@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Nebulaworkspace/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "이벤트",
     "description": "이벤트",
     "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo-jyukaaaaa.png",

@@ -776,7 +776,7 @@
       "name": "이벤트",
       "description": "이벤트",
       "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo-jyukaaaaa.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "event-play.japsik.xyz:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -910,6 +910,16 @@
           }
         },
         {
+          "id": "betterdays:betterdays:1.20.1-3.1.0.4-FABRIC@jar",
+          "name": "BetterDays",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 755734,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/betterdays-1.20.1-3.1.0.4-FABRIC.jar",
+            "MD5": "c0356d8d33a32409f3fb5affe41e1aaf"
+          }
+        },
+        {
           "id": "me.cominixo:betterf3:7.0.2@jar",
           "name": "BetterF3",
           "type": "FabricMod",
@@ -1029,6 +1039,26 @@
           }
         },
         {
+          "id": "krelox.corndelight:corndelight:1.0.4@jar",
+          "name": "Corn Delight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 137261,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/corndelight-1.20.1-1.0.4.jar",
+            "MD5": "5280e72b3040fe153b79c491eabb1b6c"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:14.0.40@jar",
+          "name": "CraftTweaker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3983475,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/CraftTweaker-fabric-1.20.1-14.0.40.jar",
+            "MD5": "5efe8556e98b0e7fdeeca3b8a94e9dfb"
+          }
+        },
+        {
           "id": "com.axperty:cratedelight:2024.05.05-1.20-fabric@jar",
           "name": "Crate Delight",
           "type": "FabricMod",
@@ -1036,6 +1066,16 @@
             "size": 136938,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/cratedelight-2024.05.05-1.20-fabric.jar",
             "MD5": "888ae8322a24aba2d7334b9510178787"
+          }
+        },
+        {
+          "id": "org.valkyrienskies.create_interactive.code:create_interactive:1.0.2-beta.2@jar",
+          "name": "Create: Interactive",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 493254,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create_interactive-1201-fabric-1.0.2-beta.2.jar",
+            "MD5": "7d05ae57753f90635afeba86adb770c7"
           }
         },
         {
@@ -1076,6 +1116,36 @@
             "size": 1596068,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/createaddition-fabric+1.20.1-1.2.3.jar",
             "MD5": "0608de37c0561a31d0542a5798a03b59"
+          }
+        },
+        {
+          "id": "net.createcobblestone:createcobblestone:1.1.0+fabric-1.20.1-18@jar",
+          "name": "Create Cobblestone",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 202728,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/createcobblestone-1.1.0+fabric-1.20.1-18.jar",
+            "MD5": "2279361682e7935dbef9ba75b6221dbf"
+          }
+        },
+        {
+          "id": "com.github.talrey:createdeco:2.0.2-1.20.1-fabric@jar",
+          "name": "Create Deco",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3971046,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/createdeco-2.0.2-1.20.1-fabric.jar",
+            "MD5": "5898cfdf230cf101a01128662a1d11b3"
+          }
+        },
+        {
+          "id": "dev.ithundxr.createnumismatics:numismatics:1.0.6+fabric-mc1.20.1@jar",
+          "name": "Create: Numismatics",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 711147,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/CreateNumismatics-1.0.6+fabric-mc1.20.1.jar",
+            "MD5": "65f7ba184c9ab329fa14b2e9215a359d"
           }
         },
         {
@@ -1321,6 +1391,30 @@
           }
         },
         {
+          "id": "dev.tr7zw:firstperson:2.4.3@jar",
+          "name": "FirstPerson",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119060,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionaloff/firstperson-fabric-2.4.3-mc1.20.1.jar",
+            "MD5": "b90c8d99c4bf86137a3d0fb3e1d27d5f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.rvbsm:fsit:2.4.0+1.20.1@jar",
+          "name": "FSit",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 718204,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/fsit-2.4.0+1.20.1.jar",
+            "MD5": "35a9a780943120b03a875542c1262d51"
+          }
+        },
+        {
           "id": "software.bernie.example:geckolib:4.4.6@jar",
           "name": "GeckoLib 4",
           "type": "FabricMod",
@@ -1414,6 +1508,68 @@
             "size": 2668790,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/iris-1.7.0+mc1.20.1.jar",
             "MD5": "4fffc15dba4b021e626beea0ec00099b"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.3.0.9999@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1153859,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/jei-1.20.1-fabric-15.3.0.9999.jar",
+            "MD5": "e2b0ea94b540ebd9a6b488f4cf5eb1df"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.blamejared:jeitweaker:8.0.6@jar",
+          "name": "JeiTweaker",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123707,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/JeiTweaker-fabric-1.20.1-8.0.6.jar",
+            "MD5": "13c9c57e1cdf6513f2bf0478574c69e8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcreator.justctgui:just_ctgui:0.0.7_release@jar",
+          "name": "Just CTGUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 94382,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/Just_CTGUI_fabric_0.0.7_release_1.20.1.jar",
+            "MD5": "e6d99d6d6f31be316617f726b4c79904"
+          }
+        },
+        {
+          "id": "com.christofmeg:justenoughbreeding:1.2.1@jar",
+          "name": "Just Enough Breeding",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 87621,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/justenoughbreeding-fabric-1.20.x-1.2.1.jar",
+            "MD5": "6433095d2886aa940d6b0baf0f87a83e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 278357,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/JustEnoughResources-Fabric-1.20.1-1.4.0.247.jar",
+            "MD5": "e4540cb5e13b538b31c0b3b99e86cbc2"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1680,6 +1836,16 @@
           }
         },
         {
+          "id": "club.someoneice:pineapple_delight:1.0.10@jar",
+          "name": "Pineapple Delight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77814,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/PineappleDelight-Fabric-1.20-1.0.11.jar",
+            "MD5": "5e3d8bb1e750b64c1f9279c0ee4cb63e"
+          }
+        },
+        {
           "id": "eu.ha3:presencefootsteps:1.9.4+1.20.1@jar",
           "name": "Presence Footsteps",
           "type": "FabricMod",
@@ -1809,6 +1975,19 @@
           }
         },
         {
+          "id": "io.github.a5b84.statuseffectbars:status-effect-bars:1.0.3@jar",
+          "name": "Status Effect Bars",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 44632,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/status-effect-bars-1.0.3.jar",
+            "MD5": "fc1642fa6d4a6a3cf8e3c392d367124a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.railwayteam:railways:1.6.4+fabric-mc1.20.1@jar",
           "name": "Create: Steam 'n' Rails",
           "type": "FabricMod",
@@ -1836,6 +2015,29 @@
             "size": 322358,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/TerraBlender-fabric-1.20.1-3.0.1.7.jar",
             "MD5": "524735cf94fa6b7fd329656524dcf53a"
+          }
+        },
+        {
+          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
+          "name": "Tiny Item Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18492,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/tia-1.20-1.1-fabric.jar",
+            "MD5": "262aef6a6587de46b8238ca1144deea5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:trainperspectivefix:1.0.0@jar",
+          "name": "Create: Train Perspective Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 82555,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/trainperspectivefix-1.0.0-universal.jar",
+            "MD5": "9387c6329cc5eb418e5ec928e67e3c0c"
           }
         },
         {
