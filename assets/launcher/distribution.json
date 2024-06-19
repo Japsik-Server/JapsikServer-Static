@@ -1069,16 +1069,6 @@
           }
         },
         {
-          "id": "org.valkyrienskies.create_interactive.code:create_interactive:1.0.2-beta.2@jar",
-          "name": "Create: Interactive",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 493254,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create_interactive-1201-fabric-1.0.2-beta.2.jar",
-            "MD5": "7d05ae57753f90635afeba86adb770c7"
-          }
-        },
-        {
           "id": "com.simibubi:create:0.5.1-f-build.1417+mc1.20.1@jar",
           "name": "Create",
           "type": "FabricMod",
