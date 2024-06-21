@@ -776,7 +776,7 @@
       "name": "이벤트",
       "description": "이벤트",
       "icon": "https://static.japsik.xyz/assets/images/Japsik-Logo-jyukaaaaa.png",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "address": "event-play.japsik.xyz:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -878,6 +878,16 @@
               }
             }
           ]
+        },
+        {
+          "id": "generated.fabricmod:additional:placements-fabric-1.20.1-1.8.0@jar",
+          "name": "Additional",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360587,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/additional-placements-fabric-1.20.1-1.8.0.jar",
+            "MD5": "67945c5733801b616ef6de511d4ddba3"
+          }
         },
         {
           "id": "com.almostreliable.unified:almostunified:1.20.1-0.9.3@jar",
@@ -1268,16 +1278,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:enchanted:vertical-slabs-1.9.1@jar",
-          "name": "Enchanted",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 205511,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/enchanted-vertical-slabs-1.9.1.jar",
-            "MD5": "baaa5a61f145a9817d85851385bf0612"
-          }
-        },
-        {
           "id": "dev.tr7zw:entityculling:1.6.5@jar",
           "name": "EntityCulling",
           "type": "FabricMod",
@@ -1511,6 +1511,16 @@
             "size": 2668790,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/iris-1.7.0+mc1.20.1.jar",
             "MD5": "4fffc15dba4b021e626beea0ec00099b"
+          }
+        },
+        {
+          "id": "com.lx862.jcm.entrypoint:jsblock:2.0.0-beta-2+1.20.1@jar",
+          "name": "Joban Client Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8375579,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/JCM-fabric-2.0.0-beta-2+1.20.1.jar",
+            "MD5": "2cf701d9972faa8b6e157842e39a9021"
           }
         },
         {
@@ -1776,6 +1786,36 @@
           }
         },
         {
+          "id": "top.mcmtr.init:msd:1.3.5@jar",
+          "name": "MTR Station Decoration Addon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6851108,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/MSD-fabric-1.20.1-4.0.0-beta-8-1.3.5.jar",
+            "MD5": "7e3594df6bbb937adf4cadfa97519a5e"
+          }
+        },
+        {
+          "id": "org.mtr.init:mtr:4.0.0-beta-8@jar",
+          "name": "Minecraft Transit Railway",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 72385115,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/MTR-fabric-4.0.0-beta-8+1.20.1.jar",
+            "MD5": "245f7e41d470e8df7938b497f276d50a"
+          }
+        },
+        {
+          "id": "net.londonunderground.init:londonunderground:2.2.0@jar",
+          "name": "MTR London Underground Addon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63840849,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/MTR-London-Underground-Addon-fabric-2.2.0+1.20.1.jar",
+            "MD5": "94bef337c4b788b2b1b0be085c2f47c1"
+          }
+        },
+        {
           "id": "net.firemuffin303.thaidelight:muffins_thaidelight:1.0.0@jar",
           "name": "Muffin's Thai's Delight",
           "type": "FabricMod",
@@ -1846,6 +1886,16 @@
             "size": 77814,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/PineappleDelight-Fabric-1.20-1.0.11.jar",
             "MD5": "5e3d8bb1e750b64c1f9279c0ee4cb63e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:porting_lib:2.3.4+1.20.1@jar",
+          "name": "Porting Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3279971,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/porting_lib-2.3.4+1.20.1.jar",
+            "MD5": "7dc33c88dd447d153bcb3b6378a5cb74"
           }
         },
         {
@@ -2015,6 +2065,19 @@
             "size": 217487,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/storagedelight-1.1.1-1.20.1-fabric.jar",
             "MD5": "644c33a1f458a497fd290f5a77bfb2f1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:switcher:1.1.0@jar",
+          "name": "Switcher",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 240794,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/switcher-1.1.0.jar",
+            "MD5": "55d2834f8a8f63384e64f01c89b645b8"
+          },
+          "required": {
+            "value": false
           }
         },
         {
