@@ -1,0 +1,15 @@
+{
+  "client": {
+    "chatAnnouncements": true,
+    "textToSpeechAnnouncements": true,
+    "hideTranslucentParts": false,
+    "languageDisplay": "NORMAL",
+    "dynamicTextureResolution": 2,
+    "defaultRail3D": true,
+    "disableShadowsForShaders": false,
+    "betaWarningVersion": "4.0.0-beta-8+1.20.1"
+  },
+  "server": {
+    "webserverPort": 8888
+  }
+}

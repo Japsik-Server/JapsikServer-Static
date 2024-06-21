@@ -2381,6 +2381,17 @@
           }
         },
         {
+          "id": "mtr.json",
+          "name": "mtr.json",
+          "type": "File",
+          "artifact": {
+            "size": 353,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/files/config/mtr.json",
+            "MD5": "cb5a9fcc3a34a9da619e93c1b4298f44",
+            "path": "config/mtr.json"
+          }
+        },
+        {
           "id": "Faithful 32x - 1.20.1.zip",
           "name": "Faithful 32x - 1.20.1.zip",
           "type": "File",
