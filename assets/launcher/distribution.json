@@ -979,16 +979,6 @@
           }
         },
         {
-          "id": "earth.terrarium:botarium:2.3.3@jar",
-          "name": "Botarium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 188345,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/botarium-fabric-1.20.1-2.3.3.jar",
-            "MD5": "a8c942971cb1b6c00b15f22c7fd5d1fa"
-          }
-        },
-        {
           "id": "generated.fabricmod:caramelchat:1.1.1@jar",
           "name": "CaramelChat",
           "type": "FabricMod",
@@ -1059,16 +1049,6 @@
           }
         },
         {
-          "id": "com.blamejared:crafttweaker:14.0.40@jar",
-          "name": "CraftTweaker",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3983475,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/CraftTweaker-fabric-1.20.1-14.0.40.jar",
-            "MD5": "5efe8556e98b0e7fdeeca3b8a94e9dfb"
-          }
-        },
-        {
           "id": "com.axperty:cratedelight:2024.05.05-1.20-fabric@jar",
           "name": "Crate Delight",
           "type": "FabricMod",
@@ -1096,26 +1076,6 @@
             "size": 4209908,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create-food-1.0.7-fabric.jar",
             "MD5": "e3f046adefd4325184226ef757df3824"
-          }
-        },
-        {
-          "id": "org.antarcticgardens.newage:create_new_age:1.1.2@jar",
-          "name": "Create: New Age",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 657516,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create-new-age-fabric-1.20.1-1.1.2.jar",
-            "MD5": "adbcf100c350d23dcaffc452261700a7"
-          }
-        },
-        {
-          "id": "com.mrh0:createaddition:1.2.3@jar",
-          "name": "Create Crafts & Additions",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1596068,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/createaddition-fabric+1.20.1-1.2.3.jar",
-            "MD5": "0608de37c0561a31d0542a5798a03b59"
           }
         },
         {
@@ -1308,6 +1268,16 @@
           }
         },
         {
+          "id": "org.samo_lego:fabrictailor:2.1.2@jar",
+          "name": "Fabric Tailor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 112497,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/fabrictailor-2.1.2.jar",
+            "MD5": "9c3575bb3fa1e7188a07a1d7eab7a048"
+          }
+        },
+        {
           "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.6@jar",
           "name": "Falling Leaves",
           "type": "FabricMod",
@@ -1458,13 +1428,13 @@
           }
         },
         {
-          "id": "link.infra:indium:1.0.31+mc1.20.4@jar",
+          "id": "link.infra:indium:1.0.32+mc1.20.1@jar",
           "name": "Indium",
           "type": "FabricMod",
           "artifact": {
-            "size": 105350,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/indium-1.0.31+mc1.20.4.jar",
-            "MD5": "86d20afc613763546f51452ef893be82"
+            "size": 105361,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/indium-1.0.32+mc1.20.1.jar",
+            "MD5": "100082a8527efcac4f0f58ab75c6977c"
           }
         },
         {
@@ -1504,13 +1474,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.7.0+mc1.20.1@jar",
+          "id": "generated.fabricmod:iris:1.7.1+mc1.20.1@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2668790,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/iris-1.7.0+mc1.20.1.jar",
-            "MD5": "4fffc15dba4b021e626beea0ec00099b"
+            "size": 2684113,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/iris-1.7.1+mc1.20.1.jar",
+            "MD5": "aec4a86587848b38ef10969455af58d9"
           }
         },
         {
@@ -1534,29 +1504,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "com.blamejared:jeitweaker:8.0.6@jar",
-          "name": "JeiTweaker",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 123707,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/JeiTweaker-fabric-1.20.1-8.0.6.jar",
-            "MD5": "13c9c57e1cdf6513f2bf0478574c69e8"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.mcreator.justctgui:just_ctgui:0.0.7_release@jar",
-          "name": "Just CTGUI",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 94382,
-            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/Just_CTGUI_fabric_0.0.7_release_1.20.1.jar",
-            "MD5": "e6d99d6d6f31be316617f726b4c79904"
           }
         },
         {
@@ -1995,6 +1942,16 @@
           }
         },
         {
+          "id": "me.jellysquid.mods:sodium:0.5.10+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 965275,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sodium-fabric-0.5.10+mc1.20.1.jar",
+            "MD5": "9e9522b078f4a62d0cef69719521ad2b"
+          }
+        },
+        {
           "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -2005,6 +1962,16 @@
           }
         },
         {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.19.5+mc1.20.1-SNAPSHOT-build.104@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2144085,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sophisticatedbackpacks-3.19.5+mc1.20.1-SNAPSHOT-build.104.jar",
+            "MD5": "0b32fa21dd53dd23a2471aff4a47d334"
+          }
+        },
+        {
           "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.19.5+mc1.20.1-SNAPSHOT-build.76@jar",
           "name": "Sophisticated Backpacks",
           "type": "FabricMod",
@@ -2012,6 +1979,16 @@
             "size": 2139343,
             "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sophisticatedbackpacks-3.19.5+mc1.20.1-SNAPSHOT-build.76.jar",
             "MD5": "7a4b1628903fae212973a1b0966ec97e"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:0.5.109+mc1.20.1-SNAPSHOT-build.104@jar",
+          "name": "Sophisticated Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2208193,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sophisticatedcore-0.5.109+mc1.20.1-SNAPSHOT-build.104.jar",
+            "MD5": "89dfc2fe0eb54bc03e32b17e110e2736"
           }
         },
         {
@@ -2194,6 +2171,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "net.wolren:wolf_port:1.0.3-1.20.1@jar",
+          "name": "Wolf Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77255,
+            "url": "https://raw.githubusercontent.com/Japsik-Server/JapsikServer-Static/main/assets/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/wolf_port-1.0.3-1.20.1.jar",
+            "MD5": "73d7269e2467b6e7134bcbbf0c9a3309"
           }
         },
         {
