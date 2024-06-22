@@ -1059,16 +1059,6 @@
           }
         },
         {
-          "id": "org.valkyrienskies.create_interactive.code:create_interactive:1.0.2-beta.2@jar",
-          "name": "Create: Interactive",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 493254,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create_interactive-1201-fabric-1.0.2-beta.2.jar",
-            "MD5": "7d05ae57753f90635afeba86adb770c7"
-          }
-        },
-        {
           "id": "com.simibubi:create:0.5.1-f-build.1417+mc1.20.1@jar",
           "name": "Create",
           "type": "FabricMod",
@@ -1086,16 +1076,6 @@
             "size": 4209908,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/create-food-1.0.7-fabric.jar",
             "MD5": "e3f046adefd4325184226ef757df3824"
-          }
-        },
-        {
-          "id": "net.createcobblestone:createcobblestone:1.1.0+fabric-1.20.1-18@jar",
-          "name": "Create Cobblestone",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 202728,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/createcobblestone-1.1.0+fabric-1.20.1-18.jar",
-            "MD5": "2279361682e7935dbef9ba75b6221dbf"
           }
         },
         {
@@ -2118,16 +2098,6 @@
             "size": 179822,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/TurkishDelight-1.20.1-1.0.1.jar",
             "MD5": "29a779b816d76b90815f34631f0a63f5"
-          }
-        },
-        {
-          "id": "org.valkyrienskies.mod:valkyrienskies:2.3.0-beta.5@jar",
-          "name": "Valkyrien Skies 2",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 20688696,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/valkyrienskies-120-2.3.0-beta.5.jar",
-            "MD5": "41c064e5845b6e334877b9060aa15e2e"
           }
         },
         {
