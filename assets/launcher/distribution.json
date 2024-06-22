@@ -1398,16 +1398,6 @@
           }
         },
         {
-          "id": "dev.rvbsm:fsit:2.4.1+1.20.1@jar",
-          "name": "FSit",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 718746,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/fsit-2.4.1+1.20.1.jar",
-            "MD5": "486248a2161ca81b2fd1144a4031d3b4"
-          }
-        },
-        {
           "id": "software.bernie.example:geckolib:4.4.6@jar",
           "name": "GeckoLib 4",
           "type": "FabricMod",
@@ -1919,6 +1909,16 @@
             "size": 311040,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/SimpleRadio-fabric-1.20.1-2.3.6.jar",
             "MD5": "7a1b0e6a7d8a1df4d87f4ff2ce295ca0"
+          }
+        },
+        {
+          "id": "one.oth3r.sit:oth3r-sit:1.1.6+1.20.1@jar",
+          "name": "Sit!",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 56964,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sit!-1.1.6+1.20.1.jar",
+            "MD5": "8aed10f756f9b3f4352b69d772443a57"
           }
         },
         {
