@@ -2436,14 +2436,14 @@
           }
         },
         {
-          "id": "Pixel-Perfect-1-5-0.zip",
-          "name": "Pixel-Perfect-1-5-0.zip",
+          "id": "photon_v1.0a.zip.txt",
+          "name": "photon_v1.0a.zip.txt",
           "type": "File",
           "artifact": {
-            "size": 7765948,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/Pixel-Perfect-1-5-0.zip",
-            "MD5": "32e776195a6924c4f28deab03d6c5b05",
-            "path": "shaderpacks/Pixel-Perfect-1-5-0.zip"
+            "size": 240,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/photon_v1.0a.zip.txt",
+            "MD5": "5acd889ffab60595038683df4a48e6b3",
+            "path": "shaderpacks/photon_v1.0a.zip.txt"
           }
         },
         {
