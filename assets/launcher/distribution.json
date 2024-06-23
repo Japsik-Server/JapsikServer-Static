@@ -1049,6 +1049,16 @@
           }
         },
         {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2392617,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/coroutil-fabric-1.20.1-1.3.7.jar",
+            "MD5": "44365b7447c9b4c3aeadcadf454494aa"
+          }
+        },
+        {
           "id": "com.axperty:cratedelight:2024.05.05-1.20-fabric@jar",
           "name": "Crate Delight",
           "type": "FabricMod",
@@ -1816,16 +1826,6 @@
           }
         },
         {
-          "id": "club.someoneice:pineapple_delight:1.0.10@jar",
-          "name": "Pineapple Delight",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 77814,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/PineappleDelight-Fabric-1.20-1.0.11.jar",
-            "MD5": "5e3d8bb1e750b64c1f9279c0ee4cb63e"
-          }
-        },
-        {
           "id": "generated.fabricmod:porting_lib:2.3.4+1.20.1@jar",
           "name": "Porting Lib",
           "type": "FabricMod",
@@ -2151,6 +2151,16 @@
           }
         },
         {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.1.1@jar",
+          "name": "What Are They Up To",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 679428,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/watut-fabric-1.20.1-1.1.1.jar",
+            "MD5": "674c35be35ccb7fa3ddc75f7f47f2200"
+          }
+        },
+        {
           "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.1@jar",
           "name": "WI Zoom",
           "type": "FabricMod",
@@ -2287,9 +2297,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 16404,
+            "size": 18665,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "838457a36db7ae058bf5f1a8ece222cd",
+            "MD5": "4b3b4624a4a9e64e7e9785aabc925368",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -2404,25 +2414,36 @@
           }
         },
         {
-          "id": "ComplementaryUnbound_r5.2.1.zip",
-          "name": "ComplementaryUnbound_r5.2.1.zip",
+          "id": "BSL_v8.2.09.zip.txt",
+          "name": "BSL_v8.2.09.zip.txt",
           "type": "File",
           "artifact": {
-            "size": 439886,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.1.zip",
-            "MD5": "87c171768eb3dedfffcf922f9a7abf6d",
-            "path": "shaderpacks/ComplementaryUnbound_r5.2.1.zip"
+            "size": 134,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/BSL_v8.2.09.zip.txt",
+            "MD5": "b375037d95b8a2cdbb2014f2eb97520c",
+            "path": "shaderpacks/BSL_v8.2.09.zip.txt"
           }
         },
         {
-          "id": "MakeUp-UltraFast-8.9f.zip",
-          "name": "MakeUp-UltraFast-8.9f.zip",
+          "id": "photon_v1.0a.zip",
+          "name": "photon_v1.0a.zip",
           "type": "File",
           "artifact": {
-            "size": 341024,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/MakeUp-UltraFast-8.9f.zip",
-            "MD5": "6e3ab05b85b27d9749f596e64d67e0f0",
-            "path": "shaderpacks/MakeUp-UltraFast-8.9f.zip"
+            "size": 1558823,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/photon_v1.0a.zip",
+            "MD5": "ffcfb4e8f28620b32e1f88fd2ecd8cbb",
+            "path": "shaderpacks/photon_v1.0a.zip"
+          }
+        },
+        {
+          "id": "Pixel-Perfect-1-5-0.zip",
+          "name": "Pixel-Perfect-1-5-0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7765948,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/Pixel-Perfect-1-5-0.zip",
+            "MD5": "32e776195a6924c4f28deab03d6c5b05",
+            "path": "shaderpacks/Pixel-Perfect-1-5-0.zip"
           }
         },
         {
@@ -2434,6 +2455,17 @@
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV92.1%C2%A7r%C2%A7l.zip",
             "MD5": "62e67f3bc6bba2bcb601f0a615e90e87",
             "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip.txt",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 345,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV92.1%C2%A7r%C2%A7l.zip.txt",
+            "MD5": "f83e829b5dc80bcc3988de70bbf1680b",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip.txt"
           }
         },
         {
