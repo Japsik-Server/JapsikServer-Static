@@ -989,6 +989,20 @@
           }
         },
         {
+          "id": "com.ishland:c2me:0.2.0+alpha.11.5@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1301166,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionaloff/c2me-fabric-mc1.20.1-0.2.0+alpha.11.5.jar",
+            "MD5": "371f6ddf7ab12a1b83c5cf4e9816626d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "generated.fabricmod:caramelchat:1.1.1@jar",
           "name": "CaramelChat",
           "type": "FabricMod",
@@ -1076,6 +1090,16 @@
             "size": 136938,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/cratedelight-2024.05.05-1.20-fabric.jar",
             "MD5": "888ae8322a24aba2d7334b9510178787"
+          }
+        },
+        {
+          "id": "com.hypherionmc:craterlib:2.0.0@jar",
+          "name": "CraterLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1745010,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/CraterLib-Fabric-1.20-2.0.0.jar",
+            "MD5": "b535b46faeb3763d22ba6ed222d60e26"
           }
         },
         {
@@ -1186,6 +1210,20 @@
             "size": 165451,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/DiagonalWindows-v8.1.4-1.20.1-Fabric.jar",
             "MD5": "8de7c0e9b50c3d0e2d7fcd4098c52885"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.1.0-a@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16462213,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionaloff/DistantHorizons-2.1.0-a-1.20.1.jar",
+            "MD5": "bbdb08e94accc60daaf5f043a314c3a4"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1902,6 +1940,16 @@
           }
         },
         {
+          "id": "me.hypherionmc.simplerpc.loaders:simplerpc:3.3.0@jar",
+          "name": "Simple RPC",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 214642,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/SimpleRPC-Universal-3.3.0.jar",
+            "MD5": "cb7a605b56a68b117169f02057233505"
+          }
+        },
+        {
           "id": "one.oth3r.sit:oth3r-sit:1.1.6+1.20.1@jar",
           "name": "Sit!",
           "type": "FabricMod",
@@ -1909,6 +1957,19 @@
             "size": 56964,
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/required/sit!-1.1.6+1.20.1.jar",
             "MD5": "8aed10f756f9b3f4352b69d772443a57"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.6@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 472719,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/fabricmods/optionalon/skinlayers3d-fabric-1.6.6-mc1.20.1.jar",
+            "MD5": "71d40391889d77a3ef646a171a0639f4"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -2392,6 +2453,28 @@
           }
         },
         {
+          "id": "server-entries.toml",
+          "name": "server-entries.toml",
+          "type": "File",
+          "artifact": {
+            "size": 150,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/config/simple-rpc/server-entries.toml",
+            "MD5": "2fca628745ebfdc5b64aa8101f507a36",
+            "path": "config/simple-rpc/server-entries.toml"
+          }
+        },
+        {
+          "id": "simple-rpc.toml",
+          "name": "simple-rpc.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8405,
+            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/config/simple-rpc/simple-rpc.toml",
+            "MD5": "d308d55f9fc2518ce222e223763ac50e",
+            "path": "config/simple-rpc/simple-rpc.toml"
+          }
+        },
+        {
           "id": "Faithful 32x - 1.20.1.zip",
           "name": "Faithful 32x - 1.20.1.zip",
           "type": "File",
@@ -2444,28 +2527,6 @@
             "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/photon_v1.0a.zip.txt",
             "MD5": "5acd889ffab60595038683df4a48e6b3",
             "path": "shaderpacks/photon_v1.0a.zip.txt"
-          }
-        },
-        {
-          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip",
-          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3183918,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV92.1%C2%A7r%C2%A7l.zip",
-            "MD5": "62e67f3bc6bba2bcb601f0a615e90e87",
-            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip"
-          }
-        },
-        {
-          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip.txt",
-          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip.txt",
-          "type": "File",
-          "artifact": {
-            "size": 345,
-            "url": "https://data.japsik.xyz/launcher/servers/JapsikEvent-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV92.1%C2%A7r%C2%A7l.zip.txt",
-            "MD5": "f83e829b5dc80bcc3988de70bbf1680b",
-            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV92.1§r§l.zip.txt"
           }
         },
         {
