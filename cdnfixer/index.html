@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDN Fixer</title>
+    <script>
+        function fixAndCopy() {
+            const inputField = document.getElementById('linkInput');
+            const originalLink = inputField.value;
+
+            if (!originalLink) {
+                alert('Please enter a link.');
+                return;
+            }
+
+            // 링크 변환
+            let fixedLink = originalLink.split('?')[0]; // "?" 뒤의 뒷부분 삭제
+            fixedLink = fixedLink.replace("cdn.discordapp.com", "fixcdn.hyonsu.com"); // URL 변경
+
+            // 클립보드에 복사
+            navigator.clipboard.writeText(fixedLink)
+                .then(() => alert('Fixed link copied to clipboard:\n' + fixedLink))
+                .catch(err => alert('Failed to copy the link: ' + err));
+        }
+    </script>
+</head>
+<body>
+    <h1>Discord CDN Fixer</h1>
+    <label for="linkInput">Enter your link:</label><br>
+    <input type="text" id="linkInput" placeholder="Enter the link here" style="width: 100%; padding: 8px; margin: 10px 0;"><br>
+    <button onclick="fixAndCopy()" style="padding: 10px 20px;">Fix & Copy</button>
+</body>
+</html>
